@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "okf_version": "0.2",
+  "threshold": 2,
+  "sources": {
+    "local-memory-015a1edd3c08060e": {
+      "source_id": "local-memory-015a1edd3c08060e",
+      "corpus": "memory-example",
+      "relative_path": "local-memory.md",
+      "raw_file": "raw/local-memory-015a1edd3c08060e/local-memory.md",
+      "sha256": "08ec86b6efa746c347b3cb044debf0983e8ede1c24c80fdab3b6b39a3f21b2d2",
+      "total_lines": 12,
+      "page": "wiki/sources/local-memory-015a1edd3c08060e.md",
+      "assets": [],
+      "warnings": [],
+      "aliases": [],
+      "created": "2026-10-05T15:35:21Z",
+      "page_complete": true,
+      "page_sha256": "7b16ee2806916862c53cc61596c8e86313452c8bfe4e221ca9ec1cff0154888a"
+    },
+    "shared-memory-4fcd847af00bfa49": {
+      "source_id": "shared-memory-4fcd847af00bfa49",
+      "corpus": "memory-example",
+      "relative_path": "shared-memory.md",
+      "raw_file": "raw/shared-memory-4fcd847af00bfa49/shared-memory.md",
+      "sha256": "d18954582ba38def06c025803d6267f45e19aead1271859b6c4f88d44e4eff85",
+      "total_lines": 13,
+      "page": "wiki/sources/shared-memory-4fcd847af00bfa49.md",
+      "assets": [],
+      "warnings": [],
+      "aliases": [],
+      "created": "2026-10-05T15:35:21Z",
+      "page_complete": true,
+      "page_sha256": "3e9bfdcf6321545931b1ded526a31f6ea40df3c3e95a57b039ebd6ed1f3c7493"
+    }
+  },
+  "identities": {
+    "[\"memory-example\", \"local-memory.md\"]": "local-memory-015a1edd3c08060e",
+    "[\"memory-example\", \"shared-memory.md\"]": "shared-memory-4fcd847af00bfa49"
+  },
+  "pending_tail": false,
+  "page_hashes": {
+    "wiki/concepts/agent-memory.md": "a3be713f5db9c158510f6806f9a9d22ad4be3f7710c8cde1b19a6bf144084298",
+    "wiki/overview.md": "499db7f711afa8cfe4294d1974de87bfc4b5faf0e23ca2e8610c07f2fbff6b15",
+    "wiki/sources/local-memory-015a1edd3c08060e.md": "7b16ee2806916862c53cc61596c8e86313452c8bfe4e221ca9ec1cff0154888a",
+    "wiki/sources/shared-memory-4fcd847af00bfa49.md": "3e9bfdcf6321545931b1ded526a31f6ea40df3c3e95a57b039ebd6ed1f3c7493"
+  },
+  "last_completed_run": "95ce64376361d2b6"
+}
