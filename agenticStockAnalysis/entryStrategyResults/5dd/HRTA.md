@@ -1,0 +1,31 @@
+## Rank 1 strategy card
+
+### No actionable strategy
+
+**Report generated on:** 25 September 2026, 13:33:11 WIB (UTC+7)
+
+- **Source and fixed window:** HRTA / IDX; analysis timestamp 25 September 2026, 13:16 WIB; news cut-off 25 September 2026, 13:17 WIB; technical-data cut-off 24 September 2026. The intended window is sessions 1–5, 28 September–2 October 2026. All five sessions remain, but the report labels the schedule provisional and does not provide the exact session-5 closing time.
+- **Current state:** No actionable strategy; no position or fill is assumed. The source judgment is **Neutral/Wait**, which permits observation only pending refreshed favorable evidence or satisfaction of explicit conditions.
+- **Disqualifying facts:** The official five-session calendar was not definitively verified; the exact final-close time is missing; and the supplied entry/stop/target combinations fail the Moderate-profile minimum 1.5:1 gross reward-to-risk screening floor. Participation is also incomplete, with below-normal volume, negative CMF, weak ADX, and bearish Aroon/Vortex evidence.
+- **Supported economics:** From IDR2,260 to the IDR2,070 structural invalidation and IDR2,470 upper target, gross reward-to-risk is only `(2,470−2,260)/(2,260−2,070) = 1.11:1`. From IDR2,310 it is `0.67:1`. Costs are unavailable, so net economics are not estimable and cannot improve these failing gross ratios.
+- **Maximum holding point:** Intended expiry is the regular IDX close on 2 October 2026, but its exact time is **Not estimable from supplied analysis**. The plan cannot be extended beyond that date.
+- **Next required inputs:** A corrected analysis with a definitively verified 28 September–2 October schedule and exact final-close time, plus refreshed technical evidence after the completed 25 September session. An actionable plan would also require an entry, tactical stop, and attainable primary target producing at least 1.5:1 gross reward-to-risk; supplied costs, tick size, lot size, capital, and risk budget are needed for executable sizing.
+
+## Rank 2 strategy card
+
+### No second setup qualifies
+
+**Report generated on:** 25 September 2026, 13:33:11 WIB (UTC+7)
+
+- **Source and fixed window:** Same HRTA report and cut-offs as Rank 1. The intended five sessions are 28 September–2 October 2026; all five remain, subject to the unresolved calendar verification and missing exact final-close time.
+- **Nearest rejected candidate:** Pullback/retest of IDR2,260–2,310. **Status: Watch only / rejected.**
+- **Current state:** **Waiting as of the supplied technical-data cut-off of 24 September 2026.** No dated, newly completed bar demonstrates that the entry zone held, and no fill confirmation exists.
+- **Potential trigger and order logic:** Become **Armed** only after a newly completed daily bar tests IDR2,260–2,310 while its volume ratio is at least the supplied 0.9123 benchmark, OBV and ADL remain increasing, and CMF does not fall below −0.0483. Become **Triggered** only when that completed bar closes within or above the zone without breaching IDR2,260 and the stated participation conditions hold. This would be a signal, not a fill. Any order levels remain provisional because tick size and lot size were not supplied.
+- **Rejection and cancellation:** Even the best supported entry, IDR2,260, produces only 1.11:1 gross reward-to-risk to IDR2,470; therefore it fails the 1.5:1 floor. Cancel on a completed close below IDR2,260 before entry, worsening OBV/ADL/CMF, adverse placement or gold-market news, a gap above an economically acceptable price, an unverified session schedule, or failure to trigger by session 3 on 30 September. An unfilled plan after that deadline is **Expired—no entry**.
+- **Initial stop and invalidation:** The only supplied invalidation is a completed close below approximately IDR2,070. The report characterizes this as an ATR-derived structural risk distance of about 10.24%; it is too wide to support a Moderate-risk five-session entry and must not be converted into a tighter invented stop.
+- **Targets and management:** Target 1 is IDR2,370; Target 2 is IDR2,410–2,470. No position is authorized. Hypothetically, **Active—healthy** would require an explicitly confirmed fill followed by price holding the entry zone with improving participation. **Active—warning** would mean failure at IDR2,370, subnormal volume, CMF deterioration, or OBV/ADL turning down; action would be to reduce or exit, not loosen risk. **Invalidated** means a completed close below IDR2,070 or materially adverse catalyst evidence; exit would be due, subject to execution. **Completed** requires confirmed exit fills closing the entire position; a target touch alone is insufficient.
+- **Conservative reward-to-risk:** At IDR2,260, risk is `2,260−2,070 = IDR190/share`. Reward to Target 1 is `2,370−2,260 = IDR110`, or `0.58:1`; binary break-even win rate is `63.3%`. Reward to IDR2,410 is IDR150, or `0.79:1`; break-even is `55.9%`. Reward to IDR2,470 is IDR210, or `1.11:1`; break-even is `47.5%`. These are gross figures before unknown costs, and the binary break-even formula does not model partial exits, gaps, or time exits.
+- **Expected value:** Strategy expected value not reliably estimable. The report’s scenario probabilities concern session-5 closing ranges, not conditional fill, target-touch, or stop-hit probabilities. Net economics are unverified because fees, taxes, and slippage were not supplied.
+- **Time stop:** If this rejected setup were reconsidered under a refreshed qualifying analysis and entered no later than session 3, lack of follow-through through IDR2,370 by the close of holding session 3 would require full exit; an exit condition without a confirmed fill is **Exit due / execution unconfirmed**.
+- **Maximum holding point:** Regular IDX close on 2 October 2026; exact time is **Not estimable from supplied analysis**. Exposure cannot be extended without a new analysis.
+- **Sizing and execution risks:** No executable share count is available because position capital, account-risk limit, lot size, tick size, fees, taxes, and slippage allowance were not supplied. The two cards are alternatives, not cumulative exposure. Limit orders may not fill; gaps, partial fills, price limits, or suspension can produce losses beyond the planned level.

@@ -1,0 +1,35 @@
+## Rank 1 strategy card
+
+### No actionable strategy
+
+**Report generated on:** 25 September 2026, 13:33:30 WIB (UTC+7)
+
+- **Source and fixed window:** BULL/IDX; analysis and news cut-off 25 September 2026, 13:28 WIB; technical cut-off 24 September 2026. Original window is sessions 1–10 from 28 September through 9 October 2026, with 10 sessions remaining. Expiry is the regular close on 9 October 2026; its exact closing time is not supplied. The schedule remains provisional because a definitive IDX trading calendar was not obtained.
+- **Decision:** No actionable strategy. The report’s judgment is **Neutral/Wait**, which permits observation only pending refreshed favorable evidence or satisfaction of its explicit confirmation criteria.
+- **Disqualifying facts:** No defensible tactical stop is available; IDR 380 is a closing thesis-invalidation level rather than a reliably executable stop. The report-supported confirmed-entry setup also fails the Moderate-profile minimum 1.5:1 gross reward-to-risk requirement. Volume and money flow remain inadequate, while the latest bar closed at its IDR 380 low.
+- **Freshness:** The 24 September completed bar is appropriately current for preparation during the 25 September open session, but it cannot establish current intraday conditions. Any intervening material event, suspension, or extraordinary closure requires a refreshed analysis.
+- **Sizing:** Not estimable from supplied analysis. Position capital, account-risk budget, lot size, costs, slippage allowance, and an executable stop are missing.
+- **Next required inputs:** A corrected, definitively verified IDX schedule with the exact session-10 closing time; newly completed OHLCV and volume/money-flow evidence confirming recovery; a volatility-appropriate tactical stop; and entry/target economics meeting at least 1.5:1 after conservative rounding. Costs and execution constraints are also required to verify net economics and calculate shares.
+
+## Rank 2 strategy card
+
+### No second setup qualifies
+
+**Report generated on:** 25 September 2026, 13:33:30 WIB (UTC+7)
+
+- **Source and fixed window:** BULL/IDX; analysis and news cut-off 25 September 2026, 13:28 WIB; technical cut-off 24 September 2026. Sessions 1–10 run provisionally from 28 September through 9 October 2026, with 10 sessions remaining. The plan cannot extend beyond the regular close on 9 October; the exact close time is not supplied.
+- **Nearest distinct candidate:** Confirmed breakout and hold above IDR 398. **Status: Watch only / rejected.**
+- **Current state:** **Waiting as of the supplied data cut-off.** The latest completed close was IDR 380, not above IDR 398; relative volume was 0.3744, CMF was strongly negative, and momentum remained bearish.
+- **Potential trigger and order logic:** A completed-session close above IDR 398, accompanied by improving volume, momentum, and money flow in newly supplied data. Such a close creates only a signal; it does not establish a fill. A subsequent-session limit plan within IDR 398–402, with IDR 402 as the maximum acceptable price, could then be evaluated. Do not chase a gap above IDR 402. Tick size is unavailable, so all order levels remain provisional.
+- **Progress signals:** **Armed** only after dated completed-session evidence shows price approaching/reclaiming IDR 398 while participation and money flow improve. **Triggered** only after the completed-session close above IDR 398 and independent confirmation; entry would be permitted, not assumed. If an explicit fill were later supplied, **Active—healthy** would require price to hold the recovered IDR 398–402 area with follow-through and improving flow. **Active—warning** would apply if price loses the recovered area, participation fades, or CMF/MFI remain adverse; reduce or exit rather than widen risk. **Invalidated** means a completed-session close below IDR 380, adverse operational news, failed confirmation, or expiration of the entry deadline; cancel or exit and do not average down. **Completed** requires confirmed fills closing the entire position; a target touch alone is not completion.
+- **Cancellation before entry:** Cancel on a completed-session close below IDR 380, adverse tanker/company developments, an opening gap beyond IDR 402, inadequate independent confirmation, failed net economics, an extraordinary closure or suspension, or insufficient time for follow-through. No late entry is authorized without refreshed data establishing an attainable target before expiry.
+- **Initial tactical stop and invalidation:** Not precisely estimable. IDR 380 is the supported closing invalidation reference, but the report explicitly says its ATR-stop methodology is undefined and does not provide a defensible executable stop. Gap loss could exceed any planned limit.
+- **Structural invalidation:** A close below IDR 380 with continuing negative money flow, or credible severe shipping disruption/adverse company disclosure.
+- **Targets and management:** Report-supported first profit-taking zone is IDR 404–415; IDR 426 is conditional on materially stronger volume and momentum. No profit-taking fractions can be responsibly specified without an actionable setup and sizing inputs.
+- **Conservative reward-to-risk:** Using the maximum entry of IDR 402 and IDR 380 invalidation, provisional risk is `402 − 380 = IDR 22/share`. Reward is `404 − 402 = IDR 2` to the bottom of Target 1 and `415 − 402 = IDR 13` to its top. Gross reward-to-risk is therefore `2/22 = 0.09:1` to IDR 404 and `13/22 = 0.59:1` to IDR 415—both below the required 1.5:1 floor. Corresponding binary break-even win rates before costs are 91.67% and 62.86%; these are not predicted win rates. Net economics are unverified because costs are missing.
+- **Expected value:** **Strategy expected value not reliably estimable.** The report’s terminal scenario probabilities cannot be mapped to conditional fills and path-dependent exits.
+- **Time stop:** If this candidate were reconsidered after refreshed analysis and filled, require follow-through within three trading sessions counting the entry date as session 1; otherwise exit the remaining position. The deadline must be capped at session 10.
+- **Maximum holding point:** Regular close on 9 October 2026, exact time not supplied. Any exit condition without a confirmed fill is **Exit due / execution unconfirmed**.
+- **Sizing:** No executable share count. Capital, maximum currency risk, lot size, costs, slippage, and a valid tactical stop are absent. The two cards are alternatives, not separate risk allocations.
+- **Catalyst exposure:** Favorable tanker rates and earnings are offset by geopolitical operating risk, higher-rate/liquidity pressure, and possible overnight news gaps. No confirmed company event exists inside the window.
+- **Execution risks:** Limit orders may not fill; market or stop orders may slip. Partial fills, bid–ask spread, brokerage, taxes, overnight gaps, suspension, and unknown exchange constraints prevent reliable net-risk calculation.

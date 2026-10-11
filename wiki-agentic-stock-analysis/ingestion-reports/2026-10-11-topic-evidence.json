@@ -1,0 +1,717 @@
+{
+  "entities": {
+    "entities/bksl.md": {
+      "source_ids": [
+        "bksl-7eacfc7741e851d3",
+        "bksl-c2ef0f5604a2a67a"
+      ],
+      "source_pages": [
+        "wiki/sources/bksl-7eacfc7741e851d3.md",
+        "wiki/sources/bksl-c2ef0f5604a2a67a.md"
+      ],
+      "count": 2,
+      "qualifies": true
+    },
+    "entities/bank-indonesia.md": {
+      "source_ids": [
+        "bksl-c2ef0f5604a2a67a",
+        "bnbr-a50512c7bd8186ed",
+        "bull-270816fba3cce331",
+        "bull-b65b7de46fe80d87",
+        "epac-8a9e4ccf50586c57",
+        "gpso-d737030d107af0ac",
+        "hmsp-6718bdc124e03030",
+        "hrta-30a4845bd9a6638a",
+        "icbp-c79c85e00a548f9d",
+        "mina-b3a41fc7cf56b70d"
+      ],
+      "source_pages": [
+        "wiki/sources/bksl-c2ef0f5604a2a67a.md",
+        "wiki/sources/bnbr-a50512c7bd8186ed.md",
+        "wiki/sources/bull-270816fba3cce331.md",
+        "wiki/sources/bull-b65b7de46fe80d87.md",
+        "wiki/sources/epac-8a9e4ccf50586c57.md",
+        "wiki/sources/gpso-d737030d107af0ac.md",
+        "wiki/sources/hmsp-6718bdc124e03030.md",
+        "wiki/sources/hrta-30a4845bd9a6638a.md",
+        "wiki/sources/icbp-c79c85e00a548f9d.md",
+        "wiki/sources/mina-b3a41fc7cf56b70d.md"
+      ],
+      "count": 10,
+      "qualifies": true
+    },
+    "entities/bksldrcv6a.md": {
+      "source_ids": [
+        "bksl-c2ef0f5604a2a67a"
+      ],
+      "source_pages": [
+        "wiki/sources/bksl-c2ef0f5604a2a67a.md"
+      ],
+      "count": 1,
+      "qualifies": false
+    },
+    "entities/federal-reserve.md": {
+      "source_ids": [
+        "bksl-c2ef0f5604a2a67a",
+        "bnbr-a50512c7bd8186ed",
+        "bull-270816fba3cce331",
+        "bull-b65b7de46fe80d87",
+        "epac-8a9e4ccf50586c57",
+        "gpso-d737030d107af0ac",
+        "hmsp-6718bdc124e03030",
+        "hrta-30a4845bd9a6638a",
+        "icbp-c79c85e00a548f9d",
+        "mina-b3a41fc7cf56b70d"
+      ],
+      "source_pages": [
+        "wiki/sources/bksl-c2ef0f5604a2a67a.md",
+        "wiki/sources/bnbr-a50512c7bd8186ed.md",
+        "wiki/sources/bull-270816fba3cce331.md",
+        "wiki/sources/bull-b65b7de46fe80d87.md",
+        "wiki/sources/epac-8a9e4ccf50586c57.md",
+        "wiki/sources/gpso-d737030d107af0ac.md",
+        "wiki/sources/hmsp-6718bdc124e03030.md",
+        "wiki/sources/hrta-30a4845bd9a6638a.md",
+        "wiki/sources/icbp-c79c85e00a548f9d.md",
+        "wiki/sources/mina-b3a41fc7cf56b70d.md"
+      ],
+      "count": 10,
+      "qualifies": true
+    },
+    "entities/bnbr.md": {
+      "source_ids": [
+        "bnbr-694cd85cde8d5c1b",
+        "bnbr-a50512c7bd8186ed"
+      ],
+      "source_pages": [
+        "wiki/sources/bnbr-694cd85cde8d5c1b.md",
+        "wiki/sources/bnbr-a50512c7bd8186ed.md"
+      ],
+      "count": 2,
+      "qualifies": true
+    },
+    "entities/vktr.md": {
+      "source_ids": [
+        "bnbr-694cd85cde8d5c1b",
+        "bnbr-a50512c7bd8186ed"
+      ],
+      "source_pages": [
+        "wiki/sources/bnbr-694cd85cde8d5c1b.md",
+        "wiki/sources/bnbr-a50512c7bd8186ed.md"
+      ],
+      "count": 2,
+      "qualifies": true
+    },
+    "entities/bull.md": {
+      "source_ids": [
+        "bull-1b5fbb4a82ee07a0",
+        "bull-270816fba3cce331",
+        "bull-48a2a5c45588e51e",
+        "bull-a75efdaf022b83d5",
+        "bull-b65b7de46fe80d87"
+      ],
+      "source_pages": [
+        "wiki/sources/bull-1b5fbb4a82ee07a0.md",
+        "wiki/sources/bull-270816fba3cce331.md",
+        "wiki/sources/bull-48a2a5c45588e51e.md",
+        "wiki/sources/bull-a75efdaf022b83d5.md",
+        "wiki/sources/bull-b65b7de46fe80d87.md"
+      ],
+      "count": 5,
+      "qualifies": true
+    },
+    "entities/epac.md": {
+      "source_ids": [
+        "epac-6e4659ee28ddf896",
+        "epac-8a9e4ccf50586c57"
+      ],
+      "source_pages": [
+        "wiki/sources/epac-6e4659ee28ddf896.md",
+        "wiki/sources/epac-8a9e4ccf50586c57.md"
+      ],
+      "count": 2,
+      "qualifies": true
+    },
+    "entities/gpso.md": {
+      "source_ids": [
+        "gpso-0e7ee5751fd4bce3",
+        "gpso-c8b53800c8dec568",
+        "gpso-d737030d107af0ac"
+      ],
+      "source_pages": [
+        "wiki/sources/gpso-0e7ee5751fd4bce3.md",
+        "wiki/sources/gpso-c8b53800c8dec568.md",
+        "wiki/sources/gpso-d737030d107af0ac.md"
+      ],
+      "count": 3,
+      "qualifies": true
+    },
+    "entities/tjokro-group.md": {
+      "source_ids": [
+        "gpso-d737030d107af0ac"
+      ],
+      "source_pages": [
+        "wiki/sources/gpso-d737030d107af0ac.md"
+      ],
+      "count": 1,
+      "qualifies": false
+    },
+    "entities/hmsp.md": {
+      "source_ids": [
+        "hmsp-3b2ef84f3f7b15d1",
+        "hmsp-6718bdc124e03030"
+      ],
+      "source_pages": [
+        "wiki/sources/hmsp-3b2ef84f3f7b15d1.md",
+        "wiki/sources/hmsp-6718bdc124e03030.md"
+      ],
+      "count": 2,
+      "qualifies": true
+    },
+    "entities/freeport-indonesia.md": {
+      "source_ids": [
+        "hrta-30a4845bd9a6638a"
+      ],
+      "source_pages": [
+        "wiki/sources/hrta-30a4845bd9a6638a.md"
+      ],
+      "count": 1,
+      "qualifies": false
+    },
+    "entities/hrta.md": {
+      "source_ids": [
+        "hrta-30a4845bd9a6638a",
+        "hrta-e2f2954f5612304b"
+      ],
+      "source_pages": [
+        "wiki/sources/hrta-30a4845bd9a6638a.md",
+        "wiki/sources/hrta-e2f2954f5612304b.md"
+      ],
+      "count": 2,
+      "qualifies": true
+    },
+    "entities/icbp.md": {
+      "source_ids": [
+        "icbp-be4bae821fb86c38",
+        "icbp-c79c85e00a548f9d"
+      ],
+      "source_pages": [
+        "wiki/sources/icbp-be4bae821fb86c38.md",
+        "wiki/sources/icbp-c79c85e00a548f9d.md"
+      ],
+      "count": 2,
+      "qualifies": true
+    },
+    "entities/mina.md": {
+      "source_ids": [
+        "mina-37f439e72a0ebb94",
+        "mina-b3a41fc7cf56b70d"
+      ],
+      "source_pages": [
+        "wiki/sources/mina-37f439e72a0ebb94.md",
+        "wiki/sources/mina-b3a41fc7cf56b70d.md"
+      ],
+      "count": 2,
+      "qualifies": true
+    }
+  },
+  "concepts": {
+    "concepts/confirmation-and-participation.md": {
+      "source_ids": [
+        "bksl-7eacfc7741e851d3",
+        "bksl-c2ef0f5604a2a67a",
+        "bnbr-694cd85cde8d5c1b",
+        "bnbr-a50512c7bd8186ed",
+        "bull-1b5fbb4a82ee07a0",
+        "bull-270816fba3cce331",
+        "bull-48a2a5c45588e51e",
+        "bull-a75efdaf022b83d5",
+        "bull-b65b7de46fe80d87",
+        "epac-6e4659ee28ddf896",
+        "epac-8a9e4ccf50586c57",
+        "gpso-0e7ee5751fd4bce3",
+        "gpso-c8b53800c8dec568",
+        "gpso-d737030d107af0ac",
+        "hmsp-3b2ef84f3f7b15d1",
+        "hmsp-6718bdc124e03030",
+        "hrta-30a4845bd9a6638a",
+        "hrta-e2f2954f5612304b",
+        "icbp-be4bae821fb86c38",
+        "icbp-c79c85e00a548f9d",
+        "mina-37f439e72a0ebb94",
+        "mina-b3a41fc7cf56b70d",
+        "stock-entry-strategy-10-instructions-b62891c31dd14f64",
+        "stock-entry-strategy-5-instructions-51bfbec68204b2d3",
+        "stock-hold-strategy-10-instructions-d9a1481b76debebd",
+        "stock-hold-strategy-5-instructions-d8721315f9cdba99",
+        "stock-upside-analysis-10-instructions-510cb15a884ac7ad",
+        "stock-upside-analysis-5-instructions-7ddbeb4e49d6506f"
+      ],
+      "source_pages": [
+        "wiki/sources/bksl-7eacfc7741e851d3.md",
+        "wiki/sources/bksl-c2ef0f5604a2a67a.md",
+        "wiki/sources/bnbr-694cd85cde8d5c1b.md",
+        "wiki/sources/bnbr-a50512c7bd8186ed.md",
+        "wiki/sources/bull-1b5fbb4a82ee07a0.md",
+        "wiki/sources/bull-270816fba3cce331.md",
+        "wiki/sources/bull-48a2a5c45588e51e.md",
+        "wiki/sources/bull-a75efdaf022b83d5.md",
+        "wiki/sources/bull-b65b7de46fe80d87.md",
+        "wiki/sources/epac-6e4659ee28ddf896.md",
+        "wiki/sources/epac-8a9e4ccf50586c57.md",
+        "wiki/sources/gpso-0e7ee5751fd4bce3.md",
+        "wiki/sources/gpso-c8b53800c8dec568.md",
+        "wiki/sources/gpso-d737030d107af0ac.md",
+        "wiki/sources/hmsp-3b2ef84f3f7b15d1.md",
+        "wiki/sources/hmsp-6718bdc124e03030.md",
+        "wiki/sources/hrta-30a4845bd9a6638a.md",
+        "wiki/sources/hrta-e2f2954f5612304b.md",
+        "wiki/sources/icbp-be4bae821fb86c38.md",
+        "wiki/sources/icbp-c79c85e00a548f9d.md",
+        "wiki/sources/mina-37f439e72a0ebb94.md",
+        "wiki/sources/mina-b3a41fc7cf56b70d.md",
+        "wiki/sources/stock-entry-strategy-10-instructions-b62891c31dd14f64.md",
+        "wiki/sources/stock-entry-strategy-5-instructions-51bfbec68204b2d3.md",
+        "wiki/sources/stock-hold-strategy-10-instructions-d9a1481b76debebd.md",
+        "wiki/sources/stock-hold-strategy-5-instructions-d8721315f9cdba99.md",
+        "wiki/sources/stock-upside-analysis-10-instructions-510cb15a884ac7ad.md",
+        "wiki/sources/stock-upside-analysis-5-instructions-7ddbeb4e49d6506f.md"
+      ],
+      "count": 28,
+      "qualifies": true
+    },
+    "concepts/entry-strategy-methodology.md": {
+      "source_ids": [
+        "bksl-7eacfc7741e851d3",
+        "bnbr-694cd85cde8d5c1b",
+        "bull-1b5fbb4a82ee07a0",
+        "bull-a75efdaf022b83d5",
+        "epac-6e4659ee28ddf896",
+        "gpso-c8b53800c8dec568",
+        "hmsp-3b2ef84f3f7b15d1",
+        "hrta-e2f2954f5612304b",
+        "icbp-be4bae821fb86c38",
+        "mina-37f439e72a0ebb94",
+        "stock-entry-strategy-10-instructions-b62891c31dd14f64",
+        "stock-entry-strategy-5-instructions-51bfbec68204b2d3"
+      ],
+      "source_pages": [
+        "wiki/sources/bksl-7eacfc7741e851d3.md",
+        "wiki/sources/bnbr-694cd85cde8d5c1b.md",
+        "wiki/sources/bull-1b5fbb4a82ee07a0.md",
+        "wiki/sources/bull-a75efdaf022b83d5.md",
+        "wiki/sources/epac-6e4659ee28ddf896.md",
+        "wiki/sources/gpso-c8b53800c8dec568.md",
+        "wiki/sources/hmsp-3b2ef84f3f7b15d1.md",
+        "wiki/sources/hrta-e2f2954f5612304b.md",
+        "wiki/sources/icbp-be4bae821fb86c38.md",
+        "wiki/sources/mina-37f439e72a0ebb94.md",
+        "wiki/sources/stock-entry-strategy-10-instructions-b62891c31dd14f64.md",
+        "wiki/sources/stock-entry-strategy-5-instructions-51bfbec68204b2d3.md"
+      ],
+      "count": 12,
+      "qualifies": true
+    },
+    "concepts/execution-state-evidence.md": {
+      "source_ids": [
+        "bksl-7eacfc7741e851d3",
+        "bnbr-694cd85cde8d5c1b",
+        "bull-1b5fbb4a82ee07a0",
+        "bull-48a2a5c45588e51e",
+        "bull-a75efdaf022b83d5",
+        "epac-6e4659ee28ddf896",
+        "gpso-0e7ee5751fd4bce3",
+        "gpso-c8b53800c8dec568",
+        "hmsp-3b2ef84f3f7b15d1",
+        "hrta-e2f2954f5612304b",
+        "icbp-be4bae821fb86c38",
+        "mina-37f439e72a0ebb94",
+        "stock-entry-strategy-10-instructions-b62891c31dd14f64",
+        "stock-entry-strategy-5-instructions-51bfbec68204b2d3",
+        "stock-hold-strategy-10-instructions-d9a1481b76debebd",
+        "stock-hold-strategy-5-instructions-d8721315f9cdba99",
+        "stock-upside-analysis-10-instructions-510cb15a884ac7ad",
+        "stock-upside-analysis-5-instructions-7ddbeb4e49d6506f"
+      ],
+      "source_pages": [
+        "wiki/sources/bksl-7eacfc7741e851d3.md",
+        "wiki/sources/bnbr-694cd85cde8d5c1b.md",
+        "wiki/sources/bull-1b5fbb4a82ee07a0.md",
+        "wiki/sources/bull-48a2a5c45588e51e.md",
+        "wiki/sources/bull-a75efdaf022b83d5.md",
+        "wiki/sources/epac-6e4659ee28ddf896.md",
+        "wiki/sources/gpso-0e7ee5751fd4bce3.md",
+        "wiki/sources/gpso-c8b53800c8dec568.md",
+        "wiki/sources/hmsp-3b2ef84f3f7b15d1.md",
+        "wiki/sources/hrta-e2f2954f5612304b.md",
+        "wiki/sources/icbp-be4bae821fb86c38.md",
+        "wiki/sources/mina-37f439e72a0ebb94.md",
+        "wiki/sources/stock-entry-strategy-10-instructions-b62891c31dd14f64.md",
+        "wiki/sources/stock-entry-strategy-5-instructions-51bfbec68204b2d3.md",
+        "wiki/sources/stock-hold-strategy-10-instructions-d9a1481b76debebd.md",
+        "wiki/sources/stock-hold-strategy-5-instructions-d8721315f9cdba99.md",
+        "wiki/sources/stock-upside-analysis-10-instructions-510cb15a884ac7ad.md",
+        "wiki/sources/stock-upside-analysis-5-instructions-7ddbeb4e49d6506f.md"
+      ],
+      "count": 18,
+      "qualifies": true
+    },
+    "concepts/fixed-session-horizons.md": {
+      "source_ids": [
+        "bksl-7eacfc7741e851d3",
+        "bksl-c2ef0f5604a2a67a",
+        "bnbr-694cd85cde8d5c1b",
+        "bnbr-a50512c7bd8186ed",
+        "bull-1b5fbb4a82ee07a0",
+        "bull-270816fba3cce331",
+        "bull-48a2a5c45588e51e",
+        "bull-a75efdaf022b83d5",
+        "bull-b65b7de46fe80d87",
+        "epac-6e4659ee28ddf896",
+        "epac-8a9e4ccf50586c57",
+        "gpso-0e7ee5751fd4bce3",
+        "gpso-c8b53800c8dec568",
+        "gpso-d737030d107af0ac",
+        "hmsp-3b2ef84f3f7b15d1",
+        "hmsp-6718bdc124e03030",
+        "hrta-30a4845bd9a6638a",
+        "hrta-e2f2954f5612304b",
+        "icbp-be4bae821fb86c38",
+        "icbp-c79c85e00a548f9d",
+        "mina-37f439e72a0ebb94",
+        "mina-b3a41fc7cf56b70d",
+        "stock-entry-strategy-10-instructions-b62891c31dd14f64",
+        "stock-entry-strategy-5-instructions-51bfbec68204b2d3",
+        "stock-hold-strategy-10-instructions-d9a1481b76debebd",
+        "stock-hold-strategy-5-instructions-d8721315f9cdba99",
+        "stock-upside-analysis-10-instructions-510cb15a884ac7ad",
+        "stock-upside-analysis-5-instructions-7ddbeb4e49d6506f"
+      ],
+      "source_pages": [
+        "wiki/sources/bksl-7eacfc7741e851d3.md",
+        "wiki/sources/bksl-c2ef0f5604a2a67a.md",
+        "wiki/sources/bnbr-694cd85cde8d5c1b.md",
+        "wiki/sources/bnbr-a50512c7bd8186ed.md",
+        "wiki/sources/bull-1b5fbb4a82ee07a0.md",
+        "wiki/sources/bull-270816fba3cce331.md",
+        "wiki/sources/bull-48a2a5c45588e51e.md",
+        "wiki/sources/bull-a75efdaf022b83d5.md",
+        "wiki/sources/bull-b65b7de46fe80d87.md",
+        "wiki/sources/epac-6e4659ee28ddf896.md",
+        "wiki/sources/epac-8a9e4ccf50586c57.md",
+        "wiki/sources/gpso-0e7ee5751fd4bce3.md",
+        "wiki/sources/gpso-c8b53800c8dec568.md",
+        "wiki/sources/gpso-d737030d107af0ac.md",
+        "wiki/sources/hmsp-3b2ef84f3f7b15d1.md",
+        "wiki/sources/hmsp-6718bdc124e03030.md",
+        "wiki/sources/hrta-30a4845bd9a6638a.md",
+        "wiki/sources/hrta-e2f2954f5612304b.md",
+        "wiki/sources/icbp-be4bae821fb86c38.md",
+        "wiki/sources/icbp-c79c85e00a548f9d.md",
+        "wiki/sources/mina-37f439e72a0ebb94.md",
+        "wiki/sources/mina-b3a41fc7cf56b70d.md",
+        "wiki/sources/stock-entry-strategy-10-instructions-b62891c31dd14f64.md",
+        "wiki/sources/stock-entry-strategy-5-instructions-51bfbec68204b2d3.md",
+        "wiki/sources/stock-hold-strategy-10-instructions-d9a1481b76debebd.md",
+        "wiki/sources/stock-hold-strategy-5-instructions-d8721315f9cdba99.md",
+        "wiki/sources/stock-upside-analysis-10-instructions-510cb15a884ac7ad.md",
+        "wiki/sources/stock-upside-analysis-5-instructions-7ddbeb4e49d6506f.md"
+      ],
+      "count": 28,
+      "qualifies": true
+    },
+    "concepts/risk-reward-screening.md": {
+      "source_ids": [
+        "bksl-7eacfc7741e851d3",
+        "bnbr-694cd85cde8d5c1b",
+        "bull-1b5fbb4a82ee07a0",
+        "bull-48a2a5c45588e51e",
+        "bull-a75efdaf022b83d5",
+        "epac-6e4659ee28ddf896",
+        "gpso-0e7ee5751fd4bce3",
+        "gpso-c8b53800c8dec568",
+        "hmsp-3b2ef84f3f7b15d1",
+        "hrta-e2f2954f5612304b",
+        "icbp-be4bae821fb86c38",
+        "mina-37f439e72a0ebb94",
+        "stock-entry-strategy-10-instructions-b62891c31dd14f64",
+        "stock-entry-strategy-5-instructions-51bfbec68204b2d3",
+        "stock-hold-strategy-10-instructions-d9a1481b76debebd",
+        "stock-hold-strategy-5-instructions-d8721315f9cdba99",
+        "stock-upside-analysis-10-instructions-510cb15a884ac7ad",
+        "stock-upside-analysis-5-instructions-7ddbeb4e49d6506f"
+      ],
+      "source_pages": [
+        "wiki/sources/bksl-7eacfc7741e851d3.md",
+        "wiki/sources/bnbr-694cd85cde8d5c1b.md",
+        "wiki/sources/bull-1b5fbb4a82ee07a0.md",
+        "wiki/sources/bull-48a2a5c45588e51e.md",
+        "wiki/sources/bull-a75efdaf022b83d5.md",
+        "wiki/sources/epac-6e4659ee28ddf896.md",
+        "wiki/sources/gpso-0e7ee5751fd4bce3.md",
+        "wiki/sources/gpso-c8b53800c8dec568.md",
+        "wiki/sources/hmsp-3b2ef84f3f7b15d1.md",
+        "wiki/sources/hrta-e2f2954f5612304b.md",
+        "wiki/sources/icbp-be4bae821fb86c38.md",
+        "wiki/sources/mina-37f439e72a0ebb94.md",
+        "wiki/sources/stock-entry-strategy-10-instructions-b62891c31dd14f64.md",
+        "wiki/sources/stock-entry-strategy-5-instructions-51bfbec68204b2d3.md",
+        "wiki/sources/stock-hold-strategy-10-instructions-d9a1481b76debebd.md",
+        "wiki/sources/stock-hold-strategy-5-instructions-d8721315f9cdba99.md",
+        "wiki/sources/stock-upside-analysis-10-instructions-510cb15a884ac7ad.md",
+        "wiki/sources/stock-upside-analysis-5-instructions-7ddbeb4e49d6506f.md"
+      ],
+      "count": 18,
+      "qualifies": true
+    },
+    "concepts/tactical-vs-structural-invalidation.md": {
+      "source_ids": [
+        "bksl-7eacfc7741e851d3",
+        "bksl-c2ef0f5604a2a67a",
+        "bnbr-694cd85cde8d5c1b",
+        "bnbr-a50512c7bd8186ed",
+        "bull-1b5fbb4a82ee07a0",
+        "bull-270816fba3cce331",
+        "bull-48a2a5c45588e51e",
+        "bull-a75efdaf022b83d5",
+        "bull-b65b7de46fe80d87",
+        "epac-6e4659ee28ddf896",
+        "epac-8a9e4ccf50586c57",
+        "gpso-0e7ee5751fd4bce3",
+        "gpso-c8b53800c8dec568",
+        "gpso-d737030d107af0ac",
+        "hmsp-3b2ef84f3f7b15d1",
+        "hmsp-6718bdc124e03030",
+        "hrta-30a4845bd9a6638a",
+        "hrta-e2f2954f5612304b",
+        "icbp-be4bae821fb86c38",
+        "icbp-c79c85e00a548f9d",
+        "mina-37f439e72a0ebb94",
+        "mina-b3a41fc7cf56b70d",
+        "stock-entry-strategy-10-instructions-b62891c31dd14f64",
+        "stock-entry-strategy-5-instructions-51bfbec68204b2d3",
+        "stock-hold-strategy-10-instructions-d9a1481b76debebd",
+        "stock-hold-strategy-5-instructions-d8721315f9cdba99",
+        "stock-upside-analysis-10-instructions-510cb15a884ac7ad",
+        "stock-upside-analysis-5-instructions-7ddbeb4e49d6506f"
+      ],
+      "source_pages": [
+        "wiki/sources/bksl-7eacfc7741e851d3.md",
+        "wiki/sources/bksl-c2ef0f5604a2a67a.md",
+        "wiki/sources/bnbr-694cd85cde8d5c1b.md",
+        "wiki/sources/bnbr-a50512c7bd8186ed.md",
+        "wiki/sources/bull-1b5fbb4a82ee07a0.md",
+        "wiki/sources/bull-270816fba3cce331.md",
+        "wiki/sources/bull-48a2a5c45588e51e.md",
+        "wiki/sources/bull-a75efdaf022b83d5.md",
+        "wiki/sources/bull-b65b7de46fe80d87.md",
+        "wiki/sources/epac-6e4659ee28ddf896.md",
+        "wiki/sources/epac-8a9e4ccf50586c57.md",
+        "wiki/sources/gpso-0e7ee5751fd4bce3.md",
+        "wiki/sources/gpso-c8b53800c8dec568.md",
+        "wiki/sources/gpso-d737030d107af0ac.md",
+        "wiki/sources/hmsp-3b2ef84f3f7b15d1.md",
+        "wiki/sources/hmsp-6718bdc124e03030.md",
+        "wiki/sources/hrta-30a4845bd9a6638a.md",
+        "wiki/sources/hrta-e2f2954f5612304b.md",
+        "wiki/sources/icbp-be4bae821fb86c38.md",
+        "wiki/sources/icbp-c79c85e00a548f9d.md",
+        "wiki/sources/mina-37f439e72a0ebb94.md",
+        "wiki/sources/mina-b3a41fc7cf56b70d.md",
+        "wiki/sources/stock-entry-strategy-10-instructions-b62891c31dd14f64.md",
+        "wiki/sources/stock-entry-strategy-5-instructions-51bfbec68204b2d3.md",
+        "wiki/sources/stock-hold-strategy-10-instructions-d9a1481b76debebd.md",
+        "wiki/sources/stock-hold-strategy-5-instructions-d8721315f9cdba99.md",
+        "wiki/sources/stock-upside-analysis-10-instructions-510cb15a884ac7ad.md",
+        "wiki/sources/stock-upside-analysis-5-instructions-7ddbeb4e49d6506f.md"
+      ],
+      "count": 28,
+      "qualifies": true
+    },
+    "concepts/terminal-scenario-returns.md": {
+      "source_ids": [
+        "bksl-7eacfc7741e851d3",
+        "bksl-c2ef0f5604a2a67a",
+        "bnbr-694cd85cde8d5c1b",
+        "bnbr-a50512c7bd8186ed",
+        "bull-1b5fbb4a82ee07a0",
+        "bull-270816fba3cce331",
+        "bull-a75efdaf022b83d5",
+        "bull-b65b7de46fe80d87",
+        "epac-6e4659ee28ddf896",
+        "epac-8a9e4ccf50586c57",
+        "gpso-c8b53800c8dec568",
+        "gpso-d737030d107af0ac",
+        "hmsp-3b2ef84f3f7b15d1",
+        "hmsp-6718bdc124e03030",
+        "hrta-30a4845bd9a6638a",
+        "hrta-e2f2954f5612304b",
+        "icbp-be4bae821fb86c38",
+        "icbp-c79c85e00a548f9d",
+        "mina-37f439e72a0ebb94",
+        "mina-b3a41fc7cf56b70d",
+        "stock-entry-strategy-10-instructions-b62891c31dd14f64",
+        "stock-entry-strategy-5-instructions-51bfbec68204b2d3",
+        "stock-hold-strategy-10-instructions-d9a1481b76debebd",
+        "stock-hold-strategy-5-instructions-d8721315f9cdba99",
+        "stock-upside-analysis-10-instructions-510cb15a884ac7ad",
+        "stock-upside-analysis-5-instructions-7ddbeb4e49d6506f"
+      ],
+      "source_pages": [
+        "wiki/sources/bksl-7eacfc7741e851d3.md",
+        "wiki/sources/bksl-c2ef0f5604a2a67a.md",
+        "wiki/sources/bnbr-694cd85cde8d5c1b.md",
+        "wiki/sources/bnbr-a50512c7bd8186ed.md",
+        "wiki/sources/bull-1b5fbb4a82ee07a0.md",
+        "wiki/sources/bull-270816fba3cce331.md",
+        "wiki/sources/bull-a75efdaf022b83d5.md",
+        "wiki/sources/bull-b65b7de46fe80d87.md",
+        "wiki/sources/epac-6e4659ee28ddf896.md",
+        "wiki/sources/epac-8a9e4ccf50586c57.md",
+        "wiki/sources/gpso-c8b53800c8dec568.md",
+        "wiki/sources/gpso-d737030d107af0ac.md",
+        "wiki/sources/hmsp-3b2ef84f3f7b15d1.md",
+        "wiki/sources/hmsp-6718bdc124e03030.md",
+        "wiki/sources/hrta-30a4845bd9a6638a.md",
+        "wiki/sources/hrta-e2f2954f5612304b.md",
+        "wiki/sources/icbp-be4bae821fb86c38.md",
+        "wiki/sources/icbp-c79c85e00a548f9d.md",
+        "wiki/sources/mina-37f439e72a0ebb94.md",
+        "wiki/sources/mina-b3a41fc7cf56b70d.md",
+        "wiki/sources/stock-entry-strategy-10-instructions-b62891c31dd14f64.md",
+        "wiki/sources/stock-entry-strategy-5-instructions-51bfbec68204b2d3.md",
+        "wiki/sources/stock-hold-strategy-10-instructions-d9a1481b76debebd.md",
+        "wiki/sources/stock-hold-strategy-5-instructions-d8721315f9cdba99.md",
+        "wiki/sources/stock-upside-analysis-10-instructions-510cb15a884ac7ad.md",
+        "wiki/sources/stock-upside-analysis-5-instructions-7ddbeb4e49d6506f.md"
+      ],
+      "count": 26,
+      "qualifies": true
+    },
+    "concepts/catalyst-and-corporate-action-risk.md": {
+      "source_ids": [
+        "bksl-c2ef0f5604a2a67a",
+        "bnbr-a50512c7bd8186ed",
+        "bull-270816fba3cce331",
+        "bull-48a2a5c45588e51e",
+        "bull-b65b7de46fe80d87",
+        "epac-8a9e4ccf50586c57",
+        "gpso-0e7ee5751fd4bce3",
+        "gpso-d737030d107af0ac",
+        "hmsp-6718bdc124e03030",
+        "hrta-30a4845bd9a6638a",
+        "icbp-c79c85e00a548f9d",
+        "mina-b3a41fc7cf56b70d",
+        "stock-entry-strategy-10-instructions-b62891c31dd14f64",
+        "stock-entry-strategy-5-instructions-51bfbec68204b2d3",
+        "stock-hold-strategy-10-instructions-d9a1481b76debebd",
+        "stock-hold-strategy-5-instructions-d8721315f9cdba99",
+        "stock-upside-analysis-10-instructions-510cb15a884ac7ad",
+        "stock-upside-analysis-5-instructions-7ddbeb4e49d6506f"
+      ],
+      "source_pages": [
+        "wiki/sources/bksl-c2ef0f5604a2a67a.md",
+        "wiki/sources/bnbr-a50512c7bd8186ed.md",
+        "wiki/sources/bull-270816fba3cce331.md",
+        "wiki/sources/bull-48a2a5c45588e51e.md",
+        "wiki/sources/bull-b65b7de46fe80d87.md",
+        "wiki/sources/epac-8a9e4ccf50586c57.md",
+        "wiki/sources/gpso-0e7ee5751fd4bce3.md",
+        "wiki/sources/gpso-d737030d107af0ac.md",
+        "wiki/sources/hmsp-6718bdc124e03030.md",
+        "wiki/sources/hrta-30a4845bd9a6638a.md",
+        "wiki/sources/icbp-c79c85e00a548f9d.md",
+        "wiki/sources/mina-b3a41fc7cf56b70d.md",
+        "wiki/sources/stock-entry-strategy-10-instructions-b62891c31dd14f64.md",
+        "wiki/sources/stock-entry-strategy-5-instructions-51bfbec68204b2d3.md",
+        "wiki/sources/stock-hold-strategy-10-instructions-d9a1481b76debebd.md",
+        "wiki/sources/stock-hold-strategy-5-instructions-d8721315f9cdba99.md",
+        "wiki/sources/stock-upside-analysis-10-instructions-510cb15a884ac7ad.md",
+        "wiki/sources/stock-upside-analysis-5-instructions-7ddbeb4e49d6506f.md"
+      ],
+      "count": 18,
+      "qualifies": true
+    },
+    "concepts/trusted-technical-data.md": {
+      "source_ids": [
+        "bksl-c2ef0f5604a2a67a",
+        "bnbr-a50512c7bd8186ed",
+        "bull-270816fba3cce331",
+        "bull-b65b7de46fe80d87",
+        "epac-8a9e4ccf50586c57",
+        "gpso-d737030d107af0ac",
+        "hmsp-6718bdc124e03030",
+        "hrta-30a4845bd9a6638a",
+        "icbp-c79c85e00a548f9d",
+        "mina-b3a41fc7cf56b70d",
+        "stock-upside-analysis-10-instructions-510cb15a884ac7ad",
+        "stock-upside-analysis-5-instructions-7ddbeb4e49d6506f"
+      ],
+      "source_pages": [
+        "wiki/sources/bksl-c2ef0f5604a2a67a.md",
+        "wiki/sources/bnbr-a50512c7bd8186ed.md",
+        "wiki/sources/bull-270816fba3cce331.md",
+        "wiki/sources/bull-b65b7de46fe80d87.md",
+        "wiki/sources/epac-8a9e4ccf50586c57.md",
+        "wiki/sources/gpso-d737030d107af0ac.md",
+        "wiki/sources/hmsp-6718bdc124e03030.md",
+        "wiki/sources/hrta-30a4845bd9a6638a.md",
+        "wiki/sources/icbp-c79c85e00a548f9d.md",
+        "wiki/sources/mina-b3a41fc7cf56b70d.md",
+        "wiki/sources/stock-upside-analysis-10-instructions-510cb15a884ac7ad.md",
+        "wiki/sources/stock-upside-analysis-5-instructions-7ddbeb4e49d6506f.md"
+      ],
+      "count": 12,
+      "qualifies": true
+    },
+    "concepts/upside-analysis-methodology.md": {
+      "source_ids": [
+        "bksl-c2ef0f5604a2a67a",
+        "bnbr-a50512c7bd8186ed",
+        "bull-270816fba3cce331",
+        "bull-b65b7de46fe80d87",
+        "epac-8a9e4ccf50586c57",
+        "gpso-d737030d107af0ac",
+        "hmsp-6718bdc124e03030",
+        "hrta-30a4845bd9a6638a",
+        "icbp-c79c85e00a548f9d",
+        "mina-b3a41fc7cf56b70d",
+        "stock-upside-analysis-10-instructions-510cb15a884ac7ad",
+        "stock-upside-analysis-5-instructions-7ddbeb4e49d6506f"
+      ],
+      "source_pages": [
+        "wiki/sources/bksl-c2ef0f5604a2a67a.md",
+        "wiki/sources/bnbr-a50512c7bd8186ed.md",
+        "wiki/sources/bull-270816fba3cce331.md",
+        "wiki/sources/bull-b65b7de46fe80d87.md",
+        "wiki/sources/epac-8a9e4ccf50586c57.md",
+        "wiki/sources/gpso-d737030d107af0ac.md",
+        "wiki/sources/hmsp-6718bdc124e03030.md",
+        "wiki/sources/hrta-30a4845bd9a6638a.md",
+        "wiki/sources/icbp-c79c85e00a548f9d.md",
+        "wiki/sources/mina-b3a41fc7cf56b70d.md",
+        "wiki/sources/stock-upside-analysis-10-instructions-510cb15a884ac7ad.md",
+        "wiki/sources/stock-upside-analysis-5-instructions-7ddbeb4e49d6506f.md"
+      ],
+      "count": 12,
+      "qualifies": true
+    },
+    "concepts/hold-strategy-methodology.md": {
+      "source_ids": [
+        "bull-48a2a5c45588e51e",
+        "gpso-0e7ee5751fd4bce3",
+        "stock-hold-strategy-10-instructions-d9a1481b76debebd",
+        "stock-hold-strategy-5-instructions-d8721315f9cdba99"
+      ],
+      "source_pages": [
+        "wiki/sources/bull-48a2a5c45588e51e.md",
+        "wiki/sources/gpso-0e7ee5751fd4bce3.md",
+        "wiki/sources/stock-hold-strategy-10-instructions-d9a1481b76debebd.md",
+        "wiki/sources/stock-hold-strategy-5-instructions-d8721315f9cdba99.md"
+      ],
+      "count": 4,
+      "qualifies": true
+    }
+  },
+  "threshold": 2
+}

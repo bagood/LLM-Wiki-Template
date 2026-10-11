@@ -1,0 +1,8 @@
+{
+  "corpus": "agentic-stock-analysis",
+  "input_root": "agenticStockAnalysis",
+  "workspace": "wiki-agentic-stock-analysis",
+  "source_discovery": "recursive Markdown",
+  "market_data_refresh": false,
+  "remote_urls_fetched": false
+}
