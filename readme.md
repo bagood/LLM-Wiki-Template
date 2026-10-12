@@ -2,6 +2,8 @@
 
 This directory is a reusable template for creating an LLM Wiki following the Open Knowledge Format (OKF). It provides an agent skill, helper scripts, and workflows for processing local Markdown documents into a persistent, cited knowledge wiki. The files are readable in a text editor and can be versioned with Git.
 
+The [MCP development plan](docs/MCP-DEVELOPMENT-PLAN.md) describes a Python/FastAPI server that exposes the wiki to AI hosts through categorized discovery, retrieval, graph, reasoning-support, and workflow tools, with Docker deployment and a phased implementation roadmap.
+
 The agentic stock analysis knowledge is an example of documents processed into an LLM Wiki using this template. The source documents in [agenticStockAnalysis/](agenticStockAnalysis/) cover stock-analysis methodology, detailed analysis reports, entry strategies, and hold strategies, with separate five-session (`5dd`) and ten-session (`10dd`) contexts. Their generated wiki is in [wiki-agentic-stock-analysis/](wiki-agentic-stock-analysis/). Replace this example collection with your own documents to create a wiki for another subject.
 
 Open the example's [wiki index](wiki-agentic-stock-analysis/wiki/index.md) or [overview](wiki-agentic-stock-analysis/wiki/overview.md) to explore the generated knowledge. The overview records 28 distinct sources, 12 entity pages, and 11 concept pages. Financial claims retain their original report dates and attribution.
