@@ -1,8 +1,10 @@
-# Agentic Stock Analysis LLM Wiki
+# LLM Wiki Template
 
-This repository contains a persistent, cited knowledge wiki generated from the local Markdown collection in [agenticStockAnalysis/](agenticStockAnalysis/). It covers stock-analysis methodology, detailed analysis reports, entry strategies, and hold strategies, with separate five-session (`5dd`) and ten-session (`10dd`) contexts. The files are readable in a text editor and can be versioned with Git.
+This directory is a reusable template for creating an LLM Wiki following the Open Knowledge Format (OKF). It provides an agent skill, helper scripts, and workflows for processing local Markdown documents into a persistent, cited knowledge wiki. The files are readable in a text editor and can be versioned with Git.
 
-Open the [wiki index](wiki-agentic-stock-analysis/wiki/index.md) or [overview](wiki-agentic-stock-analysis/wiki/overview.md) to explore the generated knowledge. The overview records 28 distinct sources, 12 entity pages, and 11 concept pages. Financial claims retain their original report dates and attribution.
+The agentic stock analysis knowledge is an example of documents processed into an LLM Wiki using this template. The source documents in [agenticStockAnalysis/](agenticStockAnalysis/) cover stock-analysis methodology, detailed analysis reports, entry strategies, and hold strategies, with separate five-session (`5dd`) and ten-session (`10dd`) contexts. Their generated wiki is in [wiki-agentic-stock-analysis/](wiki-agentic-stock-analysis/). Replace this example collection with your own documents to create a wiki for another subject.
+
+Open the example's [wiki index](wiki-agentic-stock-analysis/wiki/index.md) or [overview](wiki-agentic-stock-analysis/wiki/overview.md) to explore the generated knowledge. The overview records 28 distinct sources, 12 entity pages, and 11 concept pages. Financial claims retain their original report dates and attribution.
 
 The agent writes source summaries and synthesizes knowledge. Python helpers preserve evidence, track completion, count sources, generate navigation, and validate the result. Running a helper alone does not produce LLM-written knowledge.
 
@@ -16,7 +18,7 @@ From this repository:
 cd llm-wiki-template
 ```
 
-Start your agent in the repository root (the directory containing this README and `.agents/`), then paste the prompt used to generate this wiki:
+Start your agent in the repository root (the directory containing this README and `.agents/`), then paste the prompt used to generate the example wiki:
 
 ```text
 Read .agents/skills/llm-wiki-markdown/SKILL.md and its linked contracts.
@@ -75,7 +77,7 @@ The prompt works without slash-command support. A harness that discovers `.agent
 llm-wiki-template/           # repository root
   readme.md
   .agents/skills/llm-wiki-markdown/
-  agenticStockAnalysis/     # original input collection
+  agenticStockAnalysis/     # example source documents
     instructions/
     detailedAnalysisResults/
       5dd/
@@ -86,7 +88,7 @@ llm-wiki-template/           # repository root
     holdStrategyResults/
       5dd/
       10dd/
-  wiki-agentic-stock-analysis/  # generated workspace
+  wiki-agentic-stock-analysis/  # generated example wiki workspace
     manifest.json
     raw/
     wiki/

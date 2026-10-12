@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "02208be69ce08952",
+        "id": "c075907882afd61f",
         "type": "tabs",
         "children": [
           {
-            "id": "dfd95aba378bcfca",
+            "id": "2ced4fe9122b691e",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -95,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "wiki-agentic-stock-analysis/wiki/sources/gpso-c8b53800c8dec568.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "wiki-agentic-stock-analysis/wiki/sources/gpso-c8b53800c8dec568.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -155,6 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "wiki-agentic-stock-analysis/wiki/sources/gpso-c8b53800c8dec568.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -181,8 +184,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "dfd95aba378bcfca",
+  "active": "2ced4fe9122b691e",
   "lastOpenFiles": [
+    "wiki-agentic-stock-analysis/wiki/sources/gpso-c8b53800c8dec568.md",
+    "wiki-agentic-stock-analysis/wiki/entities/bank-indonesia.md",
+    "docs/retrieval-api-development-plan.md",
+    "docs",
     "llm-wiki-template/Untitled.md",
     "agenticStockAnalysis/detailedAnalysisResults/5dd/BULL.md",
     "agenticStockAnalysis/entryStrategyResults/10dd/BKSL.md",
