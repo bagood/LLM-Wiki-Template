@@ -1,0 +1,100 @@
+{
+  "automated_validation": "PASS",
+  "checks": {
+    "P0-V01": {
+      "evidence": [
+        "install.log",
+        "environment.json"
+      ],
+      "lock_unchanged": true,
+      "result": "PASS"
+    },
+    "P0-V02": {
+      "evidence": [
+        "tests.xml",
+        "auto-client-trace.json",
+        "legacy-client-trace.json"
+      ],
+      "result": "PASS"
+    },
+    "P0-V03": {
+      "evidence": [
+        "tests.xml",
+        "protocol-failure-trace.json",
+        "auto-0-server.log",
+        "auto-1-server.log",
+        "legacy-0-server.log",
+        "legacy-1-server.log"
+      ],
+      "result": "PASS"
+    },
+    "P0-V04": {
+      "evidence": [
+        "tests.xml",
+        "ruff.log",
+        "format.log",
+        "mypy.log"
+      ],
+      "result": "PASS"
+    },
+    "P0-V05": {
+      "evidence": [
+        "tests.xml",
+        "../../../contracts/catalog.json"
+      ],
+      "result": "PASS"
+    },
+    "P0-V06": {
+      "automated_fixture_result": "PASS",
+      "detail": "Owner review acceptance pending; automated fixture checks are separate",
+      "evidence": [
+        "tests.xml",
+        "fixture-manifest.json",
+        "stock-validation.json",
+        "review-findings.md"
+      ],
+      "result": "NOT_RUN"
+    },
+    "P0-V07": {
+      "evidence": [
+        "immutability.json",
+        "tests.xml",
+        "environment.json"
+      ],
+      "result": "PASS"
+    }
+  },
+  "client_timezone": "Asia/Jakarta",
+  "completion_gate": "INCOMPLETE_PENDING_REVIEW",
+  "executed_at_utc": "2026-10-12T17:16:10.092052+00:00",
+  "failures": [],
+  "fixture_manifest_hash": "6e3aa00a0622695905628821a5ea64c8510f6d7d336ab3e0a05619368d60939f",
+  "fixture_tree_hash": "de2da5920ea1db74d725d94371ec3c84856a0da917d47e3bf24da035cd7403a8",
+  "implementation_tree_hash": "6ae5456288ba82cb2d7cec3944271739f5199edee2ab14900a85b003f5f983c9",
+  "integration_targets": [
+    "Microsoft Copilot",
+    "Codex"
+  ],
+  "lock_hash": "8aa622fdd043e9633c93c19b2bd539294cc7c9721424f3b9523da02ec21fd5be",
+  "outstanding_dependencies": [
+    "Owner review acceptance",
+    "Microsoft Copilot variant/connector and account access",
+    "Codex host integration access",
+    "OAuth/OIDC issuer/audience/service",
+    "Hosting platform, public hostname and HTTPS ingress",
+    "P4 Docker qualification",
+    "CI execution and Python 3.15 qualification"
+  ],
+  "phase": "P0",
+  "review": {
+    "detail": "Awaiting explicit owner acceptance of decisions/contracts",
+    "outcome": "NOT_RUN",
+    "owner": "requesting repository owner",
+    "reviewer": "requesting repository owner"
+  },
+  "revision": "a17a9124dc1bd4593d67928359e56e988b9ab8bf",
+  "runtime": "3.14.8",
+  "sdk": "2.3.0",
+  "validation_host": "Darwin",
+  "working_tree_dirty": true
+}

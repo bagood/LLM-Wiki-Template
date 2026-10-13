@@ -1,0 +1,13 @@
+{
+  "structural_errors": [],
+  "evidence_errors": [],
+  "warnings": [
+    "sources/bksl-c2ef0f5604a2a67a.md: candidate ../entities/bksldrcv6a.md",
+    "sources/bksl-c2ef0f5604a2a67a.md: candidate /entities/bksldrcv6a.md",
+    "sources/gpso-d737030d107af0ac.md: candidate ../entities/tjokro-group.md",
+    "sources/gpso-d737030d107af0ac.md: candidate /entities/tjokro-group.md",
+    "sources/hrta-30a4845bd9a6638a.md: candidate ../entities/freeport-indonesia.md",
+    "sources/hrta-30a4845bd9a6638a.md: candidate /entities/freeport-indonesia.md"
+  ],
+  "valid": true
+}

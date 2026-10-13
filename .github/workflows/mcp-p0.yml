@@ -1,0 +1,29 @@
+name: MCP P0 contracts and compatibility
+on:
+  push:
+    paths: ['mcp-server/**', 'docs/MCP-DEVELOPMENT-PLAN.md', '.github/workflows/mcp-p0.yml']
+  pull_request:
+    paths: ['mcp-server/**', 'docs/MCP-DEVELOPMENT-PLAN.md', '.github/workflows/mcp-p0.yml']
+  workflow_dispatch:
+
+jobs:
+  python-314:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: mcp-server
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v7
+        with:
+          version: '0.13.0'
+          enable-cache: true
+          cache-dependency-glob: mcp-server/uv.lock
+      - run: uv python install
+      - run: uv sync --locked --all-groups
+      - run: uv run --locked python tools/validate_p0.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: p0-python-314-evidence
+          path: mcp-server/artifacts/validation/p0/

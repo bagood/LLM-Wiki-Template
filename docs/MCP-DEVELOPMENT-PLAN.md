@@ -1,6 +1,6 @@
 # LLM Wiki MCP development plan
 
-Planning date: 12 October 2026, Asia/Jakarta. Status: proposed implementation roadmap; the server has not been implemented or deployed.
+Planning date: 12 October 2026, Asia/Jakarta. Status: P0 foundation implemented locally; owner review is pending. Production tools and deployment remain planned. See [compatibility](compatibility.md) and the [P0 foundation](../mcp-server/README.md).
 
 Build a provider-independent MCP server hosted by **FastAPI**, using the official Python MCP SDK for protocol handling. Keep the OKF Markdown workspace authoritative, derive a searchable knowledge graph from its links and provenance, and expose tools for discovery, retrieval, evidence assessment, and durable agent workflows. Package the application in Docker.
 

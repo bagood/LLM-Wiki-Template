@@ -1,0 +1,4 @@
+---
+type: [unclosed
+---
+Invalid YAML.

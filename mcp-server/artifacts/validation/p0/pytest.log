@@ -1,0 +1,16 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.14.8, pytest-9.1.1, pluggy-1.6.0
+rootdir: /Users/ariabagusmustikoatmodjo/Downloads/CodingDuniawi/Python-Stuffs/AI-Research/llm-wiki-template/mcp-server
+configfile: pyproject.toml
+plugins: asyncio-1.4.0, anyio-4.15.1
+asyncio: mode=Mode.AUTO, debug=False, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function
+collected 19 items
+
+tests/contracts/test_architecture.py ..                                  [ 10%]
+tests/contracts/test_contract_inventory.py ....                          [ 31%]
+tests/contracts/test_fixtures.py ......                                  [ 63%]
+tests/integration/test_protocol_spike.py ....                            [ 84%]
+tests/unit/test_policies.py ...                                          [100%]
+
+- generated xml file: /Users/ariabagusmustikoatmodjo/Downloads/CodingDuniawi/Python-Stuffs/AI-Research/llm-wiki-template/mcp-server/artifacts/validation/p0/tests.xml -
+============================== 19 passed in 7.50s ==============================

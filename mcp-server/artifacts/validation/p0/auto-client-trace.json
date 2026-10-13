@@ -1,0 +1,302 @@
+[
+  {
+    "mode": "auto",
+    "protocol_version": "2026-07-28",
+    "request": {
+      "request": {
+        "message": "P0 \u2713",
+        "repeat": 2
+      }
+    },
+    "tools": {
+      "meta": {
+        "io.modelcontextprotocol/serverInfo": {
+          "name": "llm-wiki-mcp-p0",
+          "version": ""
+        }
+      },
+      "ttl_ms": 0,
+      "cache_scope": "private",
+      "next_cursor": null,
+      "tools": [
+        {
+          "name": "dev_protocol_probe",
+          "title": null,
+          "description": "Development compatibility probe: deterministically echo bounded input.",
+          "input_schema": {
+            "type": "object",
+            "$defs": {
+              "ProbeRequest": {
+                "additionalProperties": false,
+                "properties": {
+                  "message": {
+                    "maxLength": 128,
+                    "minLength": 1,
+                    "title": "Message",
+                    "type": "string"
+                  },
+                  "repeat": {
+                    "default": 1,
+                    "maximum": 3,
+                    "minimum": 1,
+                    "title": "Repeat",
+                    "type": "integer"
+                  }
+                },
+                "required": [
+                  "message"
+                ],
+                "title": "ProbeRequest",
+                "type": "object"
+              }
+            },
+            "properties": {
+              "request": {
+                "$ref": "#/$defs/ProbeRequest"
+              }
+            },
+            "required": [
+              "request"
+            ],
+            "title": "dev_protocol_probeArguments"
+          },
+          "execution": null,
+          "output_schema": {
+            "additionalProperties": false,
+            "properties": {
+              "schema_version": {
+                "const": "1.0",
+                "default": "1.0",
+                "title": "Schema Version",
+                "type": "string"
+              },
+              "echoes": {
+                "items": {
+                  "type": "string"
+                },
+                "title": "Echoes",
+                "type": "array"
+              },
+              "provider_required": {
+                "const": false,
+                "default": false,
+                "title": "Provider Required",
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "echoes"
+            ],
+            "title": "ProbeResult",
+            "type": "object"
+          },
+          "icons": null,
+          "annotations": {
+            "title": null,
+            "read_only_hint": true,
+            "destructive_hint": false,
+            "idempotent_hint": true,
+            "open_world_hint": false
+          },
+          "meta": null
+        }
+      ],
+      "result_type": "complete"
+    },
+    "response": {
+      "meta": {
+        "io.modelcontextprotocol/serverInfo": {
+          "name": "llm-wiki-mcp-p0",
+          "version": ""
+        }
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"schema_version\": \"1.0\",\n  \"echoes\": [\n    \"P0 \u2713\",\n    \"P0 \u2713\"\n  ],\n  \"provider_required\": false\n}",
+          "annotations": null,
+          "meta": null
+        }
+      ],
+      "structured_content": {
+        "schema_version": "1.0",
+        "echoes": [
+          "P0 \u2713",
+          "P0 \u2713"
+        ],
+        "provider_required": false
+      },
+      "is_error": false,
+      "result_type": "complete"
+    },
+    "malformed_input": {
+      "meta": {
+        "io.modelcontextprotocol/serverInfo": {
+          "name": "llm-wiki-mcp-p0",
+          "version": ""
+        }
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Error executing tool dev_protocol_probe: 2 validation errors for dev_protocol_probeArguments\nrequest.message\n  Field required [type=missing, input_value={'repeat': 99}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.14/v/missing\nrequest.repeat\n  Input should be less than or equal to 3 [type=less_than_equal, input_value=99, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/less_than_equal",
+          "annotations": null,
+          "meta": null
+        }
+      ],
+      "structured_content": null,
+      "is_error": true,
+      "result_type": "complete"
+    }
+  },
+  {
+    "mode": "auto",
+    "protocol_version": "2026-07-28",
+    "request": {
+      "request": {
+        "message": "P0 \u2713",
+        "repeat": 2
+      }
+    },
+    "tools": {
+      "meta": {
+        "io.modelcontextprotocol/serverInfo": {
+          "name": "llm-wiki-mcp-p0",
+          "version": ""
+        }
+      },
+      "ttl_ms": 0,
+      "cache_scope": "private",
+      "next_cursor": null,
+      "tools": [
+        {
+          "name": "dev_protocol_probe",
+          "title": null,
+          "description": "Development compatibility probe: deterministically echo bounded input.",
+          "input_schema": {
+            "type": "object",
+            "$defs": {
+              "ProbeRequest": {
+                "additionalProperties": false,
+                "properties": {
+                  "message": {
+                    "maxLength": 128,
+                    "minLength": 1,
+                    "title": "Message",
+                    "type": "string"
+                  },
+                  "repeat": {
+                    "default": 1,
+                    "maximum": 3,
+                    "minimum": 1,
+                    "title": "Repeat",
+                    "type": "integer"
+                  }
+                },
+                "required": [
+                  "message"
+                ],
+                "title": "ProbeRequest",
+                "type": "object"
+              }
+            },
+            "properties": {
+              "request": {
+                "$ref": "#/$defs/ProbeRequest"
+              }
+            },
+            "required": [
+              "request"
+            ],
+            "title": "dev_protocol_probeArguments"
+          },
+          "execution": null,
+          "output_schema": {
+            "additionalProperties": false,
+            "properties": {
+              "schema_version": {
+                "const": "1.0",
+                "default": "1.0",
+                "title": "Schema Version",
+                "type": "string"
+              },
+              "echoes": {
+                "items": {
+                  "type": "string"
+                },
+                "title": "Echoes",
+                "type": "array"
+              },
+              "provider_required": {
+                "const": false,
+                "default": false,
+                "title": "Provider Required",
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "echoes"
+            ],
+            "title": "ProbeResult",
+            "type": "object"
+          },
+          "icons": null,
+          "annotations": {
+            "title": null,
+            "read_only_hint": true,
+            "destructive_hint": false,
+            "idempotent_hint": true,
+            "open_world_hint": false
+          },
+          "meta": null
+        }
+      ],
+      "result_type": "complete"
+    },
+    "response": {
+      "meta": {
+        "io.modelcontextprotocol/serverInfo": {
+          "name": "llm-wiki-mcp-p0",
+          "version": ""
+        }
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"schema_version\": \"1.0\",\n  \"echoes\": [\n    \"P0 \u2713\",\n    \"P0 \u2713\"\n  ],\n  \"provider_required\": false\n}",
+          "annotations": null,
+          "meta": null
+        }
+      ],
+      "structured_content": {
+        "schema_version": "1.0",
+        "echoes": [
+          "P0 \u2713",
+          "P0 \u2713"
+        ],
+        "provider_required": false
+      },
+      "is_error": false,
+      "result_type": "complete"
+    },
+    "malformed_input": {
+      "meta": {
+        "io.modelcontextprotocol/serverInfo": {
+          "name": "llm-wiki-mcp-p0",
+          "version": ""
+        }
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Error executing tool dev_protocol_probe: 2 validation errors for dev_protocol_probeArguments\nrequest.message\n  Field required [type=missing, input_value={'repeat': 99}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.14/v/missing\nrequest.repeat\n  Input should be less than or equal to 3 [type=less_than_equal, input_value=99, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/less_than_equal",
+          "annotations": null,
+          "meta": null
+        }
+      ],
+      "structured_content": null,
+      "is_error": true,
+      "result_type": "complete"
+    }
+  }
+]

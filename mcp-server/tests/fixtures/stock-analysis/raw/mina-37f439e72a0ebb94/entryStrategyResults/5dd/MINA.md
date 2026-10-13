@@ -1,0 +1,30 @@
+## Rank 1 strategy card
+
+### No actionable strategy
+
+**Report generated on:** 25 September 2026, 13:35:13 WIB (UTC+7)
+
+- **Source and fixed window:** MINA / IDX; Moderate risk tolerance; reference close IDR 232 on 24 September 2026. Analysis and news cut-off: 25 September 2026, 13:13 WIB. Technical-data cut-off: 24 September 2026. The verified window remains 28 September–2 October 2026, exactly five IDX sessions. Sessions remaining: 5. Final regular close: 2 October 2026 at 16:01:59 WIB.
+- **Decision:** No actionable long strategy qualifies. The source judgment is **Neutral/Wait**, which permits only watch-only observation pending refreshed favorable evidence or satisfaction of executable conditional criteria.
+- **Blocking facts:** Trend, momentum, and money-flow evidence remains bearish; participation is weak; no reversal is confirmed; no five-session catalyst is established; and turnover value and order-book depth are unavailable.
+- **Risk/economics:** The report’s illustrative IDR 232 entry, IDR 218 risk reference, and IDR 247 target produce only `risk = 232 − 218 = IDR 14`, `reward = 247 − 232 = IDR 15`, and `gross reward-to-risk = 15 / 14 = 1.07:1`, below the Moderate-profile 1.5:1 floor. Break-even win rate before costs would be `1 / (1 + 1.07) = 48.3%`; this is not a predicted win rate. Net economics are unverified because fees, taxes, spread, and slippage were not supplied.
+- **Additional blockers:** IDR 218 is expressly a deeper risk reference rather than a guaranteed tactical stop. The report does not provide sufficiently precise reversal-bar and participation thresholds for an executable entry around IDR 230–234. A completed close above IDR 242 would only establish a signal; it would require later execution, and the conservative IDR 244 target would then offer inadequate reward.
+- **Expiry:** No order is authorized. Any future plan based on this report expires no later than 2 October 2026 at 16:01:59 WIB. Emergency closure, suspension, material news, or inconsistent new data requires a refreshed analysis and does not extend the window.
+- **Next required inputs:** A newly completed daily bar showing the report’s required favorable price and participation confirmation; precise volume/flow criteria; an executable stop distinct from the overly wide IDR 218 reference; tick and lot sizes; costs and slippage; position capital; and maximum currency risk.
+
+## Rank 2 strategy card
+
+### No second setup qualifies
+
+**Report generated on:** 25 September 2026, 13:35:13 WIB (UTC+7)
+
+- **Source and fixed window:** MINA / IDX; Moderate risk tolerance. Analysis/news cut-off: 25 September 2026, 13:13 WIB; technical-data cut-off and IDR 232 reference close: 24 September 2026. Fixed sessions: 28 September–2 October 2026. Sessions remaining: 5. Final regular close: 2 October 2026 at 16:01:59 WIB.
+- **Nearest distinct candidate:** Pullback/reversal attempt within IDR 230–234. **Status: Watch only / rejected.**
+- **Current state:** **Waiting as of the supplied data cut-off.** The required visible reversal and improved participation have not been demonstrated. A state of Armed or Triggered cannot be assigned without a dated completed bar proving those conditions.
+- **Potential trigger:** Price holds the IDR 230 area, visibly reverses within IDR 230–234, and participation improves. The report does not define an exact reversal-bar test or numeric volume/flow threshold, so this is not presently executable.
+- **State progression:** **Armed** would require fresh dated evidence that IDR 230 continues to hold while reversal and participation measures improve. **Triggered** would require the completed-bar evidence specified above; it would remain a signal, not a fill. **Active—healthy** would additionally require a confirmed execution and subsequent holding of the entry area with improving participation. **Active—warning** would be failure to recover IDR 240–242, a close near the session low, or continued negative CMF/OBV behavior. **Invalidated** means a completed close below IDR 230, a new low on expanding volume, adverse material disclosure, or new IDX surveillance; cancel or exit without averaging down. **Completed** requires confirmed fills closing the entire position; an exit condition alone is only **Exit due / execution unconfirmed**.
+- **Rejection reason and economics:** No exact executable stop is supplied. IDR 230 is a completed-close thesis invalidation, not a guaranteed IDR 230 fill, while IDR 218 is explicitly a wider risk reference. Consequently, risk per share, reward-to-risk, and break-even win rate are **Not estimable from supplied analysis** without misrepresenting gap risk. Using the report’s wider reference at the least-favorable IDR 234 entry and conservative IDR 244 target would yield only `(244 − 234) / (234 − 218) = 0.625:1`, well below the 1.5:1 floor.
+- **Target and expected value:** The supported profit-taking zone is IDR 244–250, but no portioning plan is justified for this rejected setup. The report’s unconditional scenario probabilities cannot be mapped to conditional fills and path-dependent exits. **Strategy expected value not reliably estimable.**
+- **Time stop:** If a future refreshed plan authorized entry, the normal no-follow-through deadline would be the close of holding session 3, capped at the original expiry. No time stop can presently be scheduled because there is no valid trigger or fill.
+- **Maximum holding point:** 2 October 2026 at 16:01:59 WIB. A final-session signal cannot authorize exposure beyond this close. Unfilled plans are **Expired—no entry** at their deadline.
+- **Sizing and execution risks:** No executable quantity is available because capital, risk budget, lot size, costs, and slippage were not supplied. Any future order should be provisional and limit-priced. Gap, partial-fill, weak-liquidity, tax, spread, slippage, renewed surveillance, and suspension risks remain material; a stop may not execute at its intended level.

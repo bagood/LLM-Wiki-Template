@@ -1,0 +1,354 @@
+{
+  "baseline_counts": {
+    "completed_sources": 28,
+    "concepts": 11,
+    "content_pages": 52,
+    "entities": 12,
+    "overviews": 1
+  },
+  "bull_source_ids": [
+    "bull-1b5fbb4a82ee07a0",
+    "bull-270816fba3cce331",
+    "bull-48a2a5c45588e51e",
+    "bull-a75efdaf022b83d5",
+    "bull-b65b7de46fe80d87"
+  ],
+  "candidate_targets": [
+    "bksldrcv6a",
+    "freeport-indonesia",
+    "tjokro-group"
+  ],
+  "captured_from": "wiki-agentic-stock-analysis",
+  "cases": {
+    "generic-okf/Météo.md": "valid_unicode_alias_reference_link",
+    "generic-okf/experiment.md": "valid_unknown_type_field_external_provenance",
+    "generic-okf/hub.md": "valid_navigation_hub",
+    "generic-okf/index.md": "valid_reserved_navigation",
+    "generic-okf/log.md": "valid_reserved_log",
+    "generic-okf/notes.md": "valid_type_only",
+    "generic-okf/notes.md#missing.md": "warning_missing_link",
+    "parser-cases/cycle-a.md": "valid_cycle",
+    "parser-cases/cycle-b.md": "valid_cycle",
+    "parser-cases/duplicate-keys.md": "error_duplicate_key",
+    "parser-cases/malformed-yaml.md": "error_yaml",
+    "parser-cases/unsafe-yaml.md": "error_unsafe_constructor"
+  },
+  "excluded": [
+    "**/.DS_Store"
+  ],
+  "files": {
+    "generic-okf/Météo.md": "938e55985f151321106e92b9d135bea0ebacceed269a74b97ba52af7aa4d0cf9",
+    "generic-okf/experiment.md": "4f9d9eed9ca0456ad5126ed103dab3de8266c5f2b56534dd10c942cc67448394",
+    "generic-okf/hub.md": "953265393510c8ebd946b6fcfa1e6b93d0fceb0c8eda81dc62bae5180fc0d32e",
+    "generic-okf/index.md": "64b9783ec861ebe5c38d9a293eeb68489ff79f363ca9370b589a9274b74ea2f4",
+    "generic-okf/log.md": "16fac3382ee317e472f81e35a21213944944f7614ced68f0cb11623c80acefcc",
+    "generic-okf/notes.md": "192654c66b48cecfce146c0807674eb1c02f89ef01f5c2a8a9423b57a9497c78",
+    "parser-cases/cycle-a.md": "4531eacc8a091e21fe1fea69eb22a283ea07574769a682906470363f079c6a2c",
+    "parser-cases/cycle-b.md": "f33a5844754c65df09eafd0ae6dbcaedb0a96c81bbcf0cb05f81c592e9dd5b12",
+    "parser-cases/duplicate-keys.md": "d8d5e2b4e352c60df8aa9c541d1a7a29151ec94135986b85a92bfc4c57694918",
+    "parser-cases/malformed-yaml.md": "af77d78b145b79a74df96eb1dc03a45b10a95c2895f0a8207bc279d24398bc40",
+    "parser-cases/unsafe-yaml.md": "150fc8a184a6de9d63d40b60774604baef01a29da70ed4e9e94de755b77cf20c",
+    "stock-analysis/INGESTION-REPORT.md": "78b8f0c0addc175831b377387b982eeaf9dcac5a5931cbe3c3df540de73f08d8",
+    "stock-analysis/collection.json": "814a6ed6906d6f9dd9492ce81eab285337dbe42b3f1167eeec87cf89615a56f6",
+    "stock-analysis/ingestion-reports/2026-10-11-completion.json": "cfd0c010a35e22ed4d24a90b39b3aadf6a0ab7a98320cc7b8c7d9bf5722dbab9",
+    "stock-analysis/ingestion-reports/2026-10-11-discovery.json": "0014a56d6687e248045d06d634f1bd0cc1d76c4de8d20a4f459756138e14d8ef",
+    "stock-analysis/ingestion-reports/2026-10-11-topic-evidence.json": "e8c7a1f7d7dbc2d11243169ea28b14b8f30ed194d20005867d631e81f1a7eb22",
+    "stock-analysis/ingestion-reports/2026-10-11-validation.json": "a9a11490f5746c9ff1245053571af5e9754955c1ecb36db3d42a9dd5120143ec",
+    "stock-analysis/manifest.json": "465454c9a28edddb138d521ae5d1e4ca517437b49ec4fe7626d525b04b2ec956",
+    "stock-analysis/raw/bksl-7eacfc7741e851d3/entryStrategyResults/10dd/BKSL.md": "c7b9bdd5fa7252a0590872ff67f70fab5b2b0f0f51dc0c875a747a2ae88c9c4d",
+    "stock-analysis/raw/bksl-c2ef0f5604a2a67a/detailedAnalysisResults/10dd/BKSL.md": "838bdab0471ad3bf32b86e93752e473da591130f912c7d70e7ab1a4db8c684fe",
+    "stock-analysis/raw/bnbr-694cd85cde8d5c1b/entryStrategyResults/10dd/BNBR.md": "1823dddb2fb6f5c2c33a33d02532965bc8a828c2b1859ec32c74bfc95feff967",
+    "stock-analysis/raw/bnbr-a50512c7bd8186ed/detailedAnalysisResults/10dd/BNBR.md": "4113a0bb50287088876c3f84eab6c46ad947cf05e4a54b1f2604be5ec40974de",
+    "stock-analysis/raw/bull-1b5fbb4a82ee07a0/entryStrategyResults/10dd/BULL.md": "e30894569bfca52c1123e385f0ff6f9eb79d620276860f84a51d37aa4248cdb7",
+    "stock-analysis/raw/bull-270816fba3cce331/detailedAnalysisResults/10dd/BULL.md": "73bfc3cab1edc91134e5c94fc6db0ecc980747f48705507033f6f3dbde2ff16e",
+    "stock-analysis/raw/bull-48a2a5c45588e51e/holdStrategyResults/10dd/BULL.md": "9da02fb5736a141817ac02d0e78c8121e637beab4e40c1527fddaba5976c2ffb",
+    "stock-analysis/raw/bull-a75efdaf022b83d5/entryStrategyResults/5dd/BULL.md": "4c17d7f567f75dd5a610c9931dd75db4d33b1fc7034d2e24e8435a7e474f6eaa",
+    "stock-analysis/raw/bull-b65b7de46fe80d87/detailedAnalysisResults/5dd/BULL.md": "04be210ea7d1932457d3b58c498ecdbb25ba2cc8900f01045323549cccc11b54",
+    "stock-analysis/raw/epac-6e4659ee28ddf896/entryStrategyResults/10dd/EPAC.md": "6008bbc7a36bfcd8b210bc659e943297c890cce82432784a5f7567e9c0d61f83",
+    "stock-analysis/raw/epac-8a9e4ccf50586c57/detailedAnalysisResults/10dd/EPAC.md": "a2ab542f5616b634610ea713e1631feb421718bacf6572f076531a38082e63b0",
+    "stock-analysis/raw/gpso-0e7ee5751fd4bce3/holdStrategyResults/5dd/GPSO.md": "7e033600d2771dc7a5ee31442b7e530337b3fa0f8aa42c6298af8bb709faa75f",
+    "stock-analysis/raw/gpso-c8b53800c8dec568/entryStrategyResults/5dd/GPSO.md": "fee140cf20b9a0c5cbb648becb0a56cba89e6885e2d9e792ca42c7dc9ab4e1cd",
+    "stock-analysis/raw/gpso-d737030d107af0ac/detailedAnalysisResults/5dd/GPSO.md": "5bd35436fd26f5a45345b9400eab29b640b14b5bbe46a38f8b09295b22f0086a",
+    "stock-analysis/raw/hmsp-3b2ef84f3f7b15d1/entryStrategyResults/10dd/HMSP.md": "66ec513b556f2c7d42c9e31f1fa325630d867c852b29f8cf25ee5dd1d19b4c8c",
+    "stock-analysis/raw/hmsp-6718bdc124e03030/detailedAnalysisResults/10dd/HMSP.md": "8516849c90f9e824015b6a3a393412b3396dfcd66996a7dbe75728b1dc9d37fc",
+    "stock-analysis/raw/hrta-30a4845bd9a6638a/detailedAnalysisResults/5dd/HRTA.md": "15ff8d84fbf4776a999d119f4ae897925e18dfc3b0f5c9bb72d0f350764e4751",
+    "stock-analysis/raw/hrta-e2f2954f5612304b/entryStrategyResults/5dd/HRTA.md": "807a87c9b4ed93dd3fec88f98bf318ef12ec89439a81b12769d7abf1cb81c52b",
+    "stock-analysis/raw/icbp-be4bae821fb86c38/entryStrategyResults/5dd/ICBP.md": "eec070a7d6ed06709699b5ac88f0d44245f9c7c45904b8fa3d1ee7fe5a213e40",
+    "stock-analysis/raw/icbp-c79c85e00a548f9d/detailedAnalysisResults/5dd/ICBP.md": "08290e00be14817c2ffa183ebba197cc3827d487d147d86c1ae6cdeef4d88826",
+    "stock-analysis/raw/mina-37f439e72a0ebb94/entryStrategyResults/5dd/MINA.md": "742e276c196c6e489ac774d6b5746d360691750029908b27df69066182824846",
+    "stock-analysis/raw/mina-b3a41fc7cf56b70d/detailedAnalysisResults/5dd/MINA.md": "ea685edf9a44cf2af9662d719c6664741334bde273a67e4095131913597f9968",
+    "stock-analysis/raw/stock-entry-strategy-10-instructions-b62891c31dd14f64/instructions/stock-entry-strategy-10-instructions.md": "0bb065df8167954352deebc06dc6897dd03ac96cab6a9989eb23683ccf97759b",
+    "stock-analysis/raw/stock-entry-strategy-5-instructions-51bfbec68204b2d3/instructions/stock-entry-strategy-5-instructions.md": "f0072fedce7b1a8633cd30a795a2cc444ecba48dff3aca6254333166db3f6471",
+    "stock-analysis/raw/stock-hold-strategy-10-instructions-d9a1481b76debebd/instructions/stock-hold-strategy-10-instructions.md": "87de567807db129e5cad03cf1cd4a7715308f63db4bc078bf7997eebb4c755f1",
+    "stock-analysis/raw/stock-hold-strategy-5-instructions-d8721315f9cdba99/instructions/stock-hold-strategy-5-instructions.md": "307b88f21e3d3610f73367232fd6f32c7baa097e10c9745374db07790b9c4174",
+    "stock-analysis/raw/stock-upside-analysis-10-instructions-510cb15a884ac7ad/instructions/stock-upside-analysis-10-instructions.md": "bc15ce2e71aeb9926303775be20aef8d3dfce46297eb3df6d06a9f3e0bb5f1af",
+    "stock-analysis/raw/stock-upside-analysis-5-instructions-7ddbeb4e49d6506f/instructions/stock-upside-analysis-5-instructions.md": "1233fbcaf1bcae7bfb089055b07c3479b69fb23388c5ed7f53035d8064bc6533",
+    "stock-analysis/wiki/concepts/catalyst-and-corporate-action-risk.md": "08294c26f62a0b2d71c005c10364f9bd299d86cfc61c0a05faa40c34ed4447e6",
+    "stock-analysis/wiki/concepts/confirmation-and-participation.md": "901fd7ddf567d2ad1841c3f25d4dc6d4fba89ca1f59c43151312e9acaabd5b4d",
+    "stock-analysis/wiki/concepts/entry-strategy-methodology.md": "d6812f5d00676504e749d462abf5952ca000fa101d58d83850abcc21c1ca3bd5",
+    "stock-analysis/wiki/concepts/execution-state-evidence.md": "7efab08ecb63dee04fc4ab2f857968181ffd2df71b6cb575a0ffaf76412abe5f",
+    "stock-analysis/wiki/concepts/fixed-session-horizons.md": "eb6232f88db12507b1a7958f1d80803b4a200fa8d50e5b6201ba98f13efb30b0",
+    "stock-analysis/wiki/concepts/hold-strategy-methodology.md": "3945517526b97444f22b8562e7b92b1b0ae169ab3804980c7c76b265377258fa",
+    "stock-analysis/wiki/concepts/index.md": "138cdcca4a5221fcefcfd2bc45011a460021ee31c4a1336f3d78f5366410388f",
+    "stock-analysis/wiki/concepts/risk-reward-screening.md": "1f5418d9ac0256c8686c8f2b2c67fbc6211fd8e1d49523d8ee8acbf643fa6f4f",
+    "stock-analysis/wiki/concepts/tactical-vs-structural-invalidation.md": "3882105d5cf48009a78bbb86e30b19ea2cddc3505a56cf5d3e1c6fe96bf7efed",
+    "stock-analysis/wiki/concepts/terminal-scenario-returns.md": "f3c0060d3c2b914664a3728735b4eb0850424de2d346816939aa6687d0cf6292",
+    "stock-analysis/wiki/concepts/trusted-technical-data.md": "6ecc1b95a30c4f482f90a9dbb6a38c523e331327f88d385c45015179f61335e3",
+    "stock-analysis/wiki/concepts/upside-analysis-methodology.md": "c003e7550fa79974c16a2e4baa499769a6a4f2ca7514119daa21b573ec2ca9c1",
+    "stock-analysis/wiki/entities/bank-indonesia.md": "2419c08a5096a4f4d9716d0dfb9866aaeb5af4147a898979be5a1448f2df82b8",
+    "stock-analysis/wiki/entities/bksl.md": "12f0ee38d7ae4b9a38d19b57e5adc0c1cc7b0bfac89e3ce633e0f561587bc41e",
+    "stock-analysis/wiki/entities/bnbr.md": "318217af8f80cc68ca8c5062bb1c7018b2fb6597549db606718f2634974eeb8d",
+    "stock-analysis/wiki/entities/bull.md": "d1dce83ff14b7bb4118cc6633b42d34401b7c1f239f2b38f1500b4337fb04c7e",
+    "stock-analysis/wiki/entities/epac.md": "e4e3a58eef9ab9ca3013bec040fa429055cb3d5feca3800eef23ea6d40207a48",
+    "stock-analysis/wiki/entities/federal-reserve.md": "61e231820815a99b40bf46350251e2e6bf51595491a6e6daf169e7621c7d46e3",
+    "stock-analysis/wiki/entities/gpso.md": "17baeea7e908fbfdf66e81deb64ca4691da5dad1eb7caadc7da17e4932624f77",
+    "stock-analysis/wiki/entities/hmsp.md": "7068effefe2d3342c54b491f832925a353fc5fcb05931c883a5da429c37dd499",
+    "stock-analysis/wiki/entities/hrta.md": "fbd37297a9b5c554e2f6c9e5e3e474f56b8d91ea6ac91d6684438747664bcb19",
+    "stock-analysis/wiki/entities/icbp.md": "28f2462c74bceedaa1cb7a988d585b35b088f174c5b7a70cfc8ce4a9247da3a7",
+    "stock-analysis/wiki/entities/index.md": "67455f8db8fa9db05b62aa1549b18a7f8d70879bd157c24689970d0bedcc93cc",
+    "stock-analysis/wiki/entities/mina.md": "28b61f72498c791d0c7ad81afc6df5a0dcf702df3e92cc26850ceb4ab1c86029",
+    "stock-analysis/wiki/entities/vktr.md": "81ca89be43694cae74c231f1eb305d45aafa1ded7ebc73facade5912ba69b280",
+    "stock-analysis/wiki/index.md": "82c6f2eccfcddac15120dc3e0428ba267551aed7a268bad421d8683b8be43481",
+    "stock-analysis/wiki/log.md": "fe6d11a9e7ed7315d182898df4dc216b4c508ac72006b008eb5d2f91c0859413",
+    "stock-analysis/wiki/overview.md": "7a7f500794fea92ebdbce2d7258cfc06db6cc0f3330d53317d266c8686febac3",
+    "stock-analysis/wiki/sources/bksl-7eacfc7741e851d3.md": "9c80d465f1d01fea4f9edce3a9a93f2e0f2c4f9c0ac5895235ce3d7d2e49daf5",
+    "stock-analysis/wiki/sources/bksl-c2ef0f5604a2a67a.md": "3285bd6e69a563d0f8f07ef205819352d119170e734d85737d03782ad9e14325",
+    "stock-analysis/wiki/sources/bnbr-694cd85cde8d5c1b.md": "4a0d50817bf8f7c7ee954497036ceec9294b8c76aeb321368a3d2512234fbc14",
+    "stock-analysis/wiki/sources/bnbr-a50512c7bd8186ed.md": "6aa41fd95e06cb68925c4fb348e466078f8a44c0b8e42de34c9d9d26a0be1226",
+    "stock-analysis/wiki/sources/bull-1b5fbb4a82ee07a0.md": "1c713b344f435992df07c579152e6e8c68a3f2a4588c955c0dd111aefc417aa6",
+    "stock-analysis/wiki/sources/bull-270816fba3cce331.md": "6bdf60daaaff7d16504f7745644d422e67f36d61a23024e11b271d0ce18a27f6",
+    "stock-analysis/wiki/sources/bull-48a2a5c45588e51e.md": "d76d199d87d2a7f497fd956ac322e8d66bdbbcc522b1c0abdee6f8d75c25723b",
+    "stock-analysis/wiki/sources/bull-a75efdaf022b83d5.md": "9bc32ba2f6cdc2b8ff5c4b130189ce1f56198c22d25630f92426c1e20ecfc51f",
+    "stock-analysis/wiki/sources/bull-b65b7de46fe80d87.md": "71ac810258da66b20939cd60d265ec8d7d41689a91d9d3834717932cb3449e00",
+    "stock-analysis/wiki/sources/epac-6e4659ee28ddf896.md": "86b03e3d458bc2a35fb124fa7e95f42556d5aeccdc46d34b5504e3b0a5d7e191",
+    "stock-analysis/wiki/sources/epac-8a9e4ccf50586c57.md": "ca3816bbe3b0eeae88391095392d7bfa5a9cf0a63d5d2bab810ec95059610170",
+    "stock-analysis/wiki/sources/gpso-0e7ee5751fd4bce3.md": "bb4fe9e4ad76bf84ab1eb08538ad0cb0f69c7acc8334d26153c5edcb983c1160",
+    "stock-analysis/wiki/sources/gpso-c8b53800c8dec568.md": "12bd701627fa541993ab6999581b104c688085fdbd0606ae7860412bc179495f",
+    "stock-analysis/wiki/sources/gpso-d737030d107af0ac.md": "33b6c6b19b01439df3acadd2ec345abc15b73e488ef139dbb0e2fbfadaf335a1",
+    "stock-analysis/wiki/sources/hmsp-3b2ef84f3f7b15d1.md": "7f0e8427d1a18a2478489712805ce1a6219c78742384eb0caec0652a4e18ffee",
+    "stock-analysis/wiki/sources/hmsp-6718bdc124e03030.md": "618e0d5e40fbc4b17d41aaaf4fe435f24b96593c9cddf8c605f06cd64b41e67e",
+    "stock-analysis/wiki/sources/hrta-30a4845bd9a6638a.md": "65ca800171e6975acbe1fcd09433cf02d0cf45a2603526e662f3011f04dc94ab",
+    "stock-analysis/wiki/sources/hrta-e2f2954f5612304b.md": "6b18f3c7abf08d6338bdeaff0d16c33113970f36ee4a08cff8139d0c33fefee9",
+    "stock-analysis/wiki/sources/icbp-be4bae821fb86c38.md": "d78302b11fbecde8c4679588553af198b06aeaf0c60bb41eca9ad5b1c682e67e",
+    "stock-analysis/wiki/sources/icbp-c79c85e00a548f9d.md": "cb71e6bcbeca941f7c6aad3739cb1e33a0f67de38a28784c4de15ee613999b4e",
+    "stock-analysis/wiki/sources/index.md": "3bfd70733f2d17708f31c4ce9190d992e3b4e31a7af367c66c890b0777ef5777",
+    "stock-analysis/wiki/sources/mina-37f439e72a0ebb94.md": "5e3c97aa70cc775e7231c4d053544adbd649dbe97f955725cbf21291e1a4c827",
+    "stock-analysis/wiki/sources/mina-b3a41fc7cf56b70d.md": "9db24282a4a6f455bcfb62829e64be7469ef3b6bb6fc4cb58bf3f78bf57e5157",
+    "stock-analysis/wiki/sources/stock-entry-strategy-10-instructions-b62891c31dd14f64.md": "8e513924d9c3d4711fdcef04eeb5a7c90bcc7ac980135496174c4669ceb0686a",
+    "stock-analysis/wiki/sources/stock-entry-strategy-5-instructions-51bfbec68204b2d3.md": "1cfbbc558f7ad5fcb10fe59b1d6c1493239e73bc3d2283aec1dee20429d89223",
+    "stock-analysis/wiki/sources/stock-hold-strategy-10-instructions-d9a1481b76debebd.md": "8f74469029ab05e9fc21628d9a65691b7a0cb717fdca10afa227ee6b5624c28b",
+    "stock-analysis/wiki/sources/stock-hold-strategy-5-instructions-d8721315f9cdba99.md": "1d10ee03393ebd72f182bc3d72b4f170dead212eb3f199846476880645e42a0d",
+    "stock-analysis/wiki/sources/stock-upside-analysis-10-instructions-510cb15a884ac7ad.md": "2fad27118d7d056e9223042aa9bbbed2e87f4cdb5cd0b67b6a2ad1a4087e7d4c",
+    "stock-analysis/wiki/sources/stock-upside-analysis-5-instructions-7ddbeb4e49d6506f.md": "e9eba5c3d9260b6e1c6a8182de6ee3e36da8947aff5af326d32b13584d64e4ad"
+  },
+  "schema_version": 1,
+  "sources": {
+    "bksl-7eacfc7741e851d3": {
+      "page": "wiki/sources/bksl-7eacfc7741e851d3.md",
+      "raw_file": "raw/bksl-7eacfc7741e851d3/entryStrategyResults/10dd/BKSL.md",
+      "relative_path": "entryStrategyResults/10dd/BKSL.md",
+      "sha256": "c7b9bdd5fa7252a0590872ff67f70fab5b2b0f0f51dc0c875a747a2ae88c9c4d",
+      "total_lines": 36
+    },
+    "bksl-c2ef0f5604a2a67a": {
+      "page": "wiki/sources/bksl-c2ef0f5604a2a67a.md",
+      "raw_file": "raw/bksl-c2ef0f5604a2a67a/detailedAnalysisResults/10dd/BKSL.md",
+      "relative_path": "detailedAnalysisResults/10dd/BKSL.md",
+      "sha256": "838bdab0471ad3bf32b86e93752e473da591130f912c7d70e7ab1a4db8c684fe",
+      "total_lines": 805
+    },
+    "bnbr-694cd85cde8d5c1b": {
+      "page": "wiki/sources/bnbr-694cd85cde8d5c1b.md",
+      "raw_file": "raw/bnbr-694cd85cde8d5c1b/entryStrategyResults/10dd/BNBR.md",
+      "relative_path": "entryStrategyResults/10dd/BNBR.md",
+      "sha256": "1823dddb2fb6f5c2c33a33d02532965bc8a828c2b1859ec32c74bfc95feff967",
+      "total_lines": 45
+    },
+    "bnbr-a50512c7bd8186ed": {
+      "page": "wiki/sources/bnbr-a50512c7bd8186ed.md",
+      "raw_file": "raw/bnbr-a50512c7bd8186ed/detailedAnalysisResults/10dd/BNBR.md",
+      "relative_path": "detailedAnalysisResults/10dd/BNBR.md",
+      "sha256": "4113a0bb50287088876c3f84eab6c46ad947cf05e4a54b1f2604be5ec40974de",
+      "total_lines": 745
+    },
+    "bull-1b5fbb4a82ee07a0": {
+      "page": "wiki/sources/bull-1b5fbb4a82ee07a0.md",
+      "raw_file": "raw/bull-1b5fbb4a82ee07a0/entryStrategyResults/10dd/BULL.md",
+      "relative_path": "entryStrategyResults/10dd/BULL.md",
+      "sha256": "e30894569bfca52c1123e385f0ff6f9eb79d620276860f84a51d37aa4248cdb7",
+      "total_lines": 35
+    },
+    "bull-270816fba3cce331": {
+      "page": "wiki/sources/bull-270816fba3cce331.md",
+      "raw_file": "raw/bull-270816fba3cce331/detailedAnalysisResults/10dd/BULL.md",
+      "relative_path": "detailedAnalysisResults/10dd/BULL.md",
+      "sha256": "73bfc3cab1edc91134e5c94fc6db0ecc980747f48705507033f6f3dbde2ff16e",
+      "total_lines": 741
+    },
+    "bull-48a2a5c45588e51e": {
+      "page": "wiki/sources/bull-48a2a5c45588e51e.md",
+      "raw_file": "raw/bull-48a2a5c45588e51e/holdStrategyResults/10dd/BULL.md",
+      "relative_path": "holdStrategyResults/10dd/BULL.md",
+      "sha256": "9da02fb5736a141817ac02d0e78c8121e637beab4e40c1527fddaba5976c2ffb",
+      "total_lines": 6
+    },
+    "bull-a75efdaf022b83d5": {
+      "page": "wiki/sources/bull-a75efdaf022b83d5.md",
+      "raw_file": "raw/bull-a75efdaf022b83d5/entryStrategyResults/5dd/BULL.md",
+      "relative_path": "entryStrategyResults/5dd/BULL.md",
+      "sha256": "4c17d7f567f75dd5a610c9931dd75db4d33b1fc7034d2e24e8435a7e474f6eaa",
+      "total_lines": 31
+    },
+    "bull-b65b7de46fe80d87": {
+      "page": "wiki/sources/bull-b65b7de46fe80d87.md",
+      "raw_file": "raw/bull-b65b7de46fe80d87/detailedAnalysisResults/5dd/BULL.md",
+      "relative_path": "detailedAnalysisResults/5dd/BULL.md",
+      "sha256": "04be210ea7d1932457d3b58c498ecdbb25ba2cc8900f01045323549cccc11b54",
+      "total_lines": 755
+    },
+    "epac-6e4659ee28ddf896": {
+      "page": "wiki/sources/epac-6e4659ee28ddf896.md",
+      "raw_file": "raw/epac-6e4659ee28ddf896/entryStrategyResults/10dd/EPAC.md",
+      "relative_path": "entryStrategyResults/10dd/EPAC.md",
+      "sha256": "6008bbc7a36bfcd8b210bc659e943297c890cce82432784a5f7567e9c0d61f83",
+      "total_lines": 33
+    },
+    "epac-8a9e4ccf50586c57": {
+      "page": "wiki/sources/epac-8a9e4ccf50586c57.md",
+      "raw_file": "raw/epac-8a9e4ccf50586c57/detailedAnalysisResults/10dd/EPAC.md",
+      "relative_path": "detailedAnalysisResults/10dd/EPAC.md",
+      "sha256": "a2ab542f5616b634610ea713e1631feb421718bacf6572f076531a38082e63b0",
+      "total_lines": 751
+    },
+    "gpso-0e7ee5751fd4bce3": {
+      "page": "wiki/sources/gpso-0e7ee5751fd4bce3.md",
+      "raw_file": "raw/gpso-0e7ee5751fd4bce3/holdStrategyResults/5dd/GPSO.md",
+      "relative_path": "holdStrategyResults/5dd/GPSO.md",
+      "sha256": "7e033600d2771dc7a5ee31442b7e530337b3fa0f8aa42c6298af8bb709faa75f",
+      "total_lines": 6
+    },
+    "gpso-c8b53800c8dec568": {
+      "page": "wiki/sources/gpso-c8b53800c8dec568.md",
+      "raw_file": "raw/gpso-c8b53800c8dec568/entryStrategyResults/5dd/GPSO.md",
+      "relative_path": "entryStrategyResults/5dd/GPSO.md",
+      "sha256": "fee140cf20b9a0c5cbb648becb0a56cba89e6885e2d9e792ca42c7dc9ab4e1cd",
+      "total_lines": 32
+    },
+    "gpso-d737030d107af0ac": {
+      "page": "wiki/sources/gpso-d737030d107af0ac.md",
+      "raw_file": "raw/gpso-d737030d107af0ac/detailedAnalysisResults/5dd/GPSO.md",
+      "relative_path": "detailedAnalysisResults/5dd/GPSO.md",
+      "sha256": "5bd35436fd26f5a45345b9400eab29b640b14b5bbe46a38f8b09295b22f0086a",
+      "total_lines": 621
+    },
+    "hmsp-3b2ef84f3f7b15d1": {
+      "page": "wiki/sources/hmsp-3b2ef84f3f7b15d1.md",
+      "raw_file": "raw/hmsp-3b2ef84f3f7b15d1/entryStrategyResults/10dd/HMSP.md",
+      "relative_path": "entryStrategyResults/10dd/HMSP.md",
+      "sha256": "66ec513b556f2c7d42c9e31f1fa325630d867c852b29f8cf25ee5dd1d19b4c8c",
+      "total_lines": 33
+    },
+    "hmsp-6718bdc124e03030": {
+      "page": "wiki/sources/hmsp-6718bdc124e03030.md",
+      "raw_file": "raw/hmsp-6718bdc124e03030/detailedAnalysisResults/10dd/HMSP.md",
+      "relative_path": "detailedAnalysisResults/10dd/HMSP.md",
+      "sha256": "8516849c90f9e824015b6a3a393412b3396dfcd66996a7dbe75728b1dc9d37fc",
+      "total_lines": 861
+    },
+    "hrta-30a4845bd9a6638a": {
+      "page": "wiki/sources/hrta-30a4845bd9a6638a.md",
+      "raw_file": "raw/hrta-30a4845bd9a6638a/detailedAnalysisResults/5dd/HRTA.md",
+      "relative_path": "detailedAnalysisResults/5dd/HRTA.md",
+      "sha256": "15ff8d84fbf4776a999d119f4ae897925e18dfc3b0f5c9bb72d0f350764e4751",
+      "total_lines": 621
+    },
+    "hrta-e2f2954f5612304b": {
+      "page": "wiki/sources/hrta-e2f2954f5612304b.md",
+      "raw_file": "raw/hrta-e2f2954f5612304b/entryStrategyResults/5dd/HRTA.md",
+      "relative_path": "entryStrategyResults/5dd/HRTA.md",
+      "sha256": "807a87c9b4ed93dd3fec88f98bf318ef12ec89439a81b12769d7abf1cb81c52b",
+      "total_lines": 31
+    },
+    "icbp-be4bae821fb86c38": {
+      "page": "wiki/sources/icbp-be4bae821fb86c38.md",
+      "raw_file": "raw/icbp-be4bae821fb86c38/entryStrategyResults/5dd/ICBP.md",
+      "relative_path": "entryStrategyResults/5dd/ICBP.md",
+      "sha256": "eec070a7d6ed06709699b5ac88f0d44245f9c7c45904b8fa3d1ee7fe5a213e40",
+      "total_lines": 32
+    },
+    "icbp-c79c85e00a548f9d": {
+      "page": "wiki/sources/icbp-c79c85e00a548f9d.md",
+      "raw_file": "raw/icbp-c79c85e00a548f9d/detailedAnalysisResults/5dd/ICBP.md",
+      "relative_path": "detailedAnalysisResults/5dd/ICBP.md",
+      "sha256": "08290e00be14817c2ffa183ebba197cc3827d487d147d86c1ae6cdeef4d88826",
+      "total_lines": 735
+    },
+    "mina-37f439e72a0ebb94": {
+      "page": "wiki/sources/mina-37f439e72a0ebb94.md",
+      "raw_file": "raw/mina-37f439e72a0ebb94/entryStrategyResults/5dd/MINA.md",
+      "relative_path": "entryStrategyResults/5dd/MINA.md",
+      "sha256": "742e276c196c6e489ac774d6b5746d360691750029908b27df69066182824846",
+      "total_lines": 30
+    },
+    "mina-b3a41fc7cf56b70d": {
+      "page": "wiki/sources/mina-b3a41fc7cf56b70d.md",
+      "raw_file": "raw/mina-b3a41fc7cf56b70d/detailedAnalysisResults/5dd/MINA.md",
+      "relative_path": "detailedAnalysisResults/5dd/MINA.md",
+      "sha256": "ea685edf9a44cf2af9662d719c6664741334bde273a67e4095131913597f9968",
+      "total_lines": 755
+    },
+    "stock-entry-strategy-10-instructions-b62891c31dd14f64": {
+      "page": "wiki/sources/stock-entry-strategy-10-instructions-b62891c31dd14f64.md",
+      "raw_file": "raw/stock-entry-strategy-10-instructions-b62891c31dd14f64/instructions/stock-entry-strategy-10-instructions.md",
+      "relative_path": "instructions/stock-entry-strategy-10-instructions.md",
+      "sha256": "0bb065df8167954352deebc06dc6897dd03ac96cab6a9989eb23683ccf97759b",
+      "total_lines": 205
+    },
+    "stock-entry-strategy-5-instructions-51bfbec68204b2d3": {
+      "page": "wiki/sources/stock-entry-strategy-5-instructions-51bfbec68204b2d3.md",
+      "raw_file": "raw/stock-entry-strategy-5-instructions-51bfbec68204b2d3/instructions/stock-entry-strategy-5-instructions.md",
+      "relative_path": "instructions/stock-entry-strategy-5-instructions.md",
+      "sha256": "f0072fedce7b1a8633cd30a795a2cc444ecba48dff3aca6254333166db3f6471",
+      "total_lines": 198
+    },
+    "stock-hold-strategy-10-instructions-d9a1481b76debebd": {
+      "page": "wiki/sources/stock-hold-strategy-10-instructions-d9a1481b76debebd.md",
+      "raw_file": "raw/stock-hold-strategy-10-instructions-d9a1481b76debebd/instructions/stock-hold-strategy-10-instructions.md",
+      "relative_path": "instructions/stock-hold-strategy-10-instructions.md",
+      "sha256": "87de567807db129e5cad03cf1cd4a7715308f63db4bc078bf7997eebb4c755f1",
+      "total_lines": 217
+    },
+    "stock-hold-strategy-5-instructions-d8721315f9cdba99": {
+      "page": "wiki/sources/stock-hold-strategy-5-instructions-d8721315f9cdba99.md",
+      "raw_file": "raw/stock-hold-strategy-5-instructions-d8721315f9cdba99/instructions/stock-hold-strategy-5-instructions.md",
+      "relative_path": "instructions/stock-hold-strategy-5-instructions.md",
+      "sha256": "307b88f21e3d3610f73367232fd6f32c7baa097e10c9745374db07790b9c4174",
+      "total_lines": 212
+    },
+    "stock-upside-analysis-10-instructions-510cb15a884ac7ad": {
+      "page": "wiki/sources/stock-upside-analysis-10-instructions-510cb15a884ac7ad.md",
+      "raw_file": "raw/stock-upside-analysis-10-instructions-510cb15a884ac7ad/instructions/stock-upside-analysis-10-instructions.md",
+      "relative_path": "instructions/stock-upside-analysis-10-instructions.md",
+      "sha256": "bc15ce2e71aeb9926303775be20aef8d3dfce46297eb3df6d06a9f3e0bb5f1af",
+      "total_lines": 475
+    },
+    "stock-upside-analysis-5-instructions-7ddbeb4e49d6506f": {
+      "page": "wiki/sources/stock-upside-analysis-5-instructions-7ddbeb4e49d6506f.md",
+      "raw_file": "raw/stock-upside-analysis-5-instructions-7ddbeb4e49d6506f/instructions/stock-upside-analysis-5-instructions.md",
+      "relative_path": "instructions/stock-upside-analysis-5-instructions.md",
+      "sha256": "1233fbcaf1bcae7bfb089055b07c3479b69fb23388c5ed7f53035d8064bc6533",
+      "total_lines": 475
+    }
+  },
+  "stock_tree_hash": "2df2e2a4d6d4762ea207f52be8eec30f0d9195b7be5cc0b22966dfc6d43c5148",
+  "tree_hash": "de2da5920ea1db74d725d94371ec3c84856a0da917d47e3bf24da035cd7403a8",
+  "tree_hash_algorithm": "sha256(sorted(path + NUL + sha256 + LF), UTF-8)",
+  "warnings": [
+    "sources/bksl-c2ef0f5604a2a67a.md: candidate ../entities/bksldrcv6a.md",
+    "sources/bksl-c2ef0f5604a2a67a.md: candidate /entities/bksldrcv6a.md",
+    "sources/gpso-d737030d107af0ac.md: candidate ../entities/tjokro-group.md",
+    "sources/gpso-d737030d107af0ac.md: candidate /entities/tjokro-group.md",
+    "sources/hrta-30a4845bd9a6638a.md: candidate ../entities/freeport-indonesia.md",
+    "sources/hrta-30a4845bd9a6638a.md: candidate /entities/freeport-indonesia.md"
+  ]
+}

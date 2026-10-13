@@ -2,3 +2,8 @@ __pycache__/
 *.py[cod]
 .venv/
 .cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+mcp-server/artifacts/state/
+mcp-server/dist/

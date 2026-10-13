@@ -1,0 +1,56 @@
+Using CPython 3.14.8 interpreter at: .venv/bin/python
+Creating virtual environment at: /var/folders/zn/f6rk6vw14mvc_4h_sd8b408m0000gn/T/llm-wiki-p0-install-duv081x6/venv
+Resolved 55 packages in 13ms
+Installed 52 packages in 98ms
+ + annotated-doc==0.0.5
+ + annotated-types==0.8.0
+ + anyio==4.15.1
+ + attrs==26.1.0
+ + certifi==2026.7.22
+ + cffi==2.1.1
+ + click==8.5.0
+ + cryptography==50.0.2
+ + fastapi==0.143.0
+ + h11==0.16.0
+ + httpcore==1.0.9
+ + httpcore2==2.13.1
+ + httpx==0.28.1
+ + httpx2==2.13.1
+ + idna==3.20
+ + iniconfig==2.3.1
+ + jsonschema==4.26.0
+ + jsonschema-specifications==2025.9.1
+ + librt==0.16.0
+ + llm-wiki-mcp==0.1.0 (from file:///Users/ariabagusmustikoatmodjo/Downloads/CodingDuniawi/Python-Stuffs/AI-Research/llm-wiki-template/mcp-server)
+ + markdown-it-py==4.2.0
+ + mcp==2.3.0
+ + mcp-types==2.3.0
+ + mdurl==0.1.2
+ + mypy==1.20.2
+ + mypy-extensions==1.1.0
+ + opentelemetry-api==1.45.1
+ + packaging==26.3
+ + pathspec==1.1.1
+ + pluggy==1.6.0
+ + pycparser==3.11
+ + pydantic==2.14.1
+ + pydantic-core==2.50.1
+ + pydantic-settings==2.15.0
+ + pygments==2.21.0
+ + pyjwt==2.15.1
+ + pytest==9.1.1
+ + pytest-asyncio==1.4.0
+ + python-dotenv==1.2.4
+ + python-multipart==0.0.32
+ + pyyaml==6.0.3
+ + referencing==0.37.0
+ + rpds-py==2026.9.1
+ + ruff==0.17.0
+ + sse-starlette==3.5.0
+ + starlette==1.7.0
+ + truststore==0.10.4
+ + types-jsonschema==4.26.0.20261006
+ + types-pyyaml==6.0.12.20260906
+ + typing-extensions==4.16.0
+ + typing-inspection==0.4.4
+ + uvicorn==0.54.0

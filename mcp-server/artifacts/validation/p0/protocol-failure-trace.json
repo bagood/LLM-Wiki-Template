@@ -1,0 +1,153 @@
+[
+  {
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "tools/list",
+      "params": {
+        "_meta": {
+          "io.modelcontextprotocol/protocolVersion": "2026-07-28",
+          "io.modelcontextprotocol/clientCapabilities": {}
+        }
+      }
+    },
+    "headers": {
+      "accept": "application/json, text/event-stream",
+      "mcp-protocol-version": "2026-07-28",
+      "mcp-method": "tools/call"
+    },
+    "status": 400,
+    "response": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "error": {
+        "code": -32020,
+        "message": "mcp-method header does not match the request body's method"
+      }
+    }
+  },
+  {
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "tools/list",
+      "params": {}
+    },
+    "headers": {
+      "accept": "application/json, text/event-stream",
+      "mcp-protocol-version": "2026-07-28",
+      "mcp-method": "tools/list"
+    },
+    "status": 400,
+    "response": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "error": {
+        "code": -32602,
+        "message": "params._meta must be an object carrying the required 'io.modelcontextprotocol/protocolVersion' and 'io.modelcontextprotocol/clientCapabilities' envelope keys"
+      }
+    }
+  },
+  {
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "tools/list",
+      "params": {
+        "_meta": {
+          "io.modelcontextprotocol/protocolVersion": "2099-01-01",
+          "io.modelcontextprotocol/clientCapabilities": {}
+        }
+      }
+    },
+    "headers": {
+      "accept": "application/json, text/event-stream",
+      "mcp-protocol-version": "2099-01-01",
+      "mcp-method": "tools/list"
+    },
+    "status": 400,
+    "response": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "error": {
+        "code": -32022,
+        "message": "Unsupported protocol version",
+        "data": {
+          "supported": [
+            "2026-07-28"
+          ],
+          "requested": "2099-01-01"
+        }
+      }
+    }
+  },
+  {
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "tools/call",
+      "params": {
+        "_meta": {
+          "io.modelcontextprotocol/protocolVersion": "2026-07-28",
+          "io.modelcontextprotocol/clientCapabilities": {}
+        },
+        "name": "dev_protocol_probe",
+        "arguments": {}
+      }
+    },
+    "headers": {
+      "accept": "application/json, text/event-stream",
+      "mcp-protocol-version": "2026-07-28",
+      "mcp-method": "tools/call",
+      "mcp-name": "different"
+    },
+    "status": 400,
+    "response": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "error": {
+        "code": -32020,
+        "message": "mcp-name header does not match the request body's 'name' parameter"
+      }
+    }
+  },
+  {
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "tools/list",
+      "params": {
+        "_meta": {
+          "io.modelcontextprotocol/protocolVersion": "2025-11-25",
+          "io.modelcontextprotocol/clientCapabilities": {}
+        }
+      }
+    },
+    "headers": {
+      "accept": "application/json, text/event-stream",
+      "mcp-protocol-version": "2026-07-28",
+      "mcp-method": "tools/list"
+    },
+    "status": 400,
+    "response": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "error": {
+        "code": -32020,
+        "message": "mcp-protocol-version header does not match the request envelope's protocol version"
+      }
+    }
+  },
+  {
+    "request": "{",
+    "status": 400,
+    "response": {
+      "jsonrpc": "2.0",
+      "error": {
+        "code": -32700,
+        "message": "Parse error"
+      },
+      "id": null
+    }
+  }
+]
